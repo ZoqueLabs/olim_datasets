@@ -205,5 +205,5 @@ Unless stated otherwise:
 * Avoid over-claiming
 * Cite responsibly
 
-ZoqueLabs — map the infra, not the narrative.
+ZoqueLabs
 
