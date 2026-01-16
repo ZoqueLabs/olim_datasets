@@ -1,0 +1,26 @@
+ip,country,city,asn,isp,org,ports,threat_names,source,last_scan
+147.28.223.190,Mexico,La Cañada,AS54825,"Packet Host, Inc.","Equinix Services, Inc.",31337,Sliver,shodan,2026-01-04_18-32-22
+147.45.116.18,Brazil,São Paulo,AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP,GLOBAL CONNECTIVITY SOLUTIONS LLP,31337,Sliver,shodan,2026-01-09_23-32-34
+15.228.3.86,Brazil,São Paulo,AS16509,"Amazon.com, Inc.",Amazon Data Services Brazil,80,Cobalt Strike,shodan,2026-01-06_03-05-38
+150.187.25.242,"Venezuela, Bolivarian Republic of",Barquisimeto,AS20312,Fundación Centro Nacional de Innovación Tecnológica (CENIT),Fundación Centro Nacional de Innovación Tecnológica (CENIT),9999,Cobalt Strike,shodan,2026-01-09_06-05-58
+152.67.58.223,Brazil,São Paulo,AS31898,Oracle Corporation,Oracle Public Cloud,8080,Hack5 Cloud C2,shodan,2026-01-09_21-42-33
+156.244.39.44,Peru,Lima,AS138915,Kaopu Cloud HK Limited,Lightnode Limited,1604;11434,CHAOS;CHAOS,shodan,2026-01-09_17-34-42
+161.132.220.65,Peru,Lima,AS27843,WIN EMPRESAS S.A.C.,unknown,8080,Quasar,censys,2026-01-09_12-14-17
+170.231.155.101,Brazil,Varginha,AS263424,Fonelight Telecomunicações S/A,Fonelight Telecomunicações S/A,3790,Metasploit,shodan,2025-12-26_00-53-40
+172.233.1.83,Brazil,São Paulo,AS63949,AKAMAI-LINODE-AP Akamai Connected Cloud,unknown,443,Havoc,censys,2026-01-09_16-14-23
+172.233.27.101,Brazil,São Paulo,AS63949,Akamai Connected Cloud,Linode,1167,CHAOS,shodan,2025-12-28_05-50-23
+177.124.72.24,Brazil,Belo Horizonte,AS52601,FAXT TELECOMUNICACOES LTDA,FAXT TELECOMUNICACOES LTDA,31337;443;11180,Sliver;Havoc;UnamWebPanel,shodan,2026-01-09_23-18-10
+177.136.225.181,Brazil,São Paulo,AS53107,EVEO S.A.,unknown,10035,Cobalt Strike,censys,2026-01-09_21-10-21
+177.89.234.43,Brazil,Natal,AS28220,Alares Cabo Servicos de Telecomunicacoes S.A.,CABO SERVICOS DE TELECOMUNICACOES LTDA,1177,njRat,shodan,2026-01-06_01-39-45
+179.0.178.198,Brazil,Belo Horizonte,AS270564,MASTER DA WEB DATACENTER LTDA,unknown,1080,Quasar,censys,2026-01-09_02-17-04
+179.0.178.79,Brazil,Belo Horizonte,AS270564,MASTER DA WEB DATACENTER LTDA,unknown,1080,Quasar,censys,2026-01-02_19-13-48
+181.174.164.116,Panama,Panamá,AS52469,Offshore Racks S.A,Offshore Racks S.A,31337,Sliver,shodan,2026-01-09_23-13-34
+181.206.158.190,Colombia,Barranquilla,AS27831,Colombia Movil,unknown,1000,DCRat,censys,2026-01-02_16-17-48
+186.17.213.66,Paraguay,Limpio,AS23201,Telecel S.A.,Telecel S.A.,3790,Metasploit,shodan,2026-01-09_20-41-22
+191.93.113.160,Colombia,Barranquilla,AS27831,Colombia Movil,unknown,8848,DCRat,censys,2026-01-05_18-30-31
+191.93.118.254,Colombia,Barranquilla,AS27831,Colombia Móvil,Colombia Móvil,9000,AsyncRAT,shodan,2026-01-09_19-44-26
+201.92.133.149,Brazil,São Paulo,AS27699,TELEFÔNICA BRASIL S.A,TELEFÔNICA BRASIL S.A,8081,Havoc,shodan,2025-12-22_01-54-38
+4.201.155.137,Brazil,São Paulo,AS8075,Microsoft Corporation,Microsoft Corporation,31337,Sliver,shodan,2026-01-09_23-17-46
+4.201.185.160,Brazil,São Paulo,AS8075,Microsoft Corporation,Microsoft Corporation,31337,Sliver,shodan,2025-12-16_11-49-04
+45.236.130.44,Chile,Santiago,AS64111,INFORMATICA BLUEHOSTING LIMITADA,INFORMATICA BLUEHOSTING LIMITADA,31337,Sliver,shodan,2025-12-15_14-32-17
+54.232.144.183,Brazil,São Paulo,AS16509,AMAZON-02,unknown,443,Mythic,censys,2026-01-05_13-13-54

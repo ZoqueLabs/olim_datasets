@@ -1,0 +1,65 @@
+ip,country,city,asn,isp,org,ports,threat_names,source,last_scan
+144.22.192.165,Brazil,São Paulo,AS31898,ORACLE-BMC-31898,unknown,8443,GoPhish,censys,2026-01-13_04-20-13
+144.22.207.61,Brazil,São Paulo,AS31898,Oracle Corporation,Oracle Corporation,8443;8443,GoPhish;GoPhish,shodan,2026-01-13_04-25-16
+147.28.223.190,Mexico,La Cañada,AS54825,"Packet Host, Inc.","Equinix Services, Inc.",31337,Sliver,shodan,2026-01-04_18-32-22
+147.45.116.18,Brazil,São Paulo,AS215540,GLOBAL CONNECTIVITY SOLUTIONS LLP,GLOBAL CONNECTIVITY SOLUTIONS LLP,31337,Sliver,shodan,2026-01-13_08-16-49
+148.230.153.56,Mexico,Torreón,AS22884,TOTAL PLAY TELECOMUNICACIONES SA DE CV,unknown,3333,GoPhish,censys,2026-01-09_22-10-30
+15.228.3.86,Brazil,São Paulo,AS16509,"Amazon.com, Inc.",Amazon Data Services Brazil,80,Cobalt Strike,shodan,2026-01-06_03-05-38
+150.187.25.242,"Venezuela, Bolivarian Republic of",Barquisimeto,AS20312,Fundación Centro Nacional de Innovación Tecnológica (CENIT),Fundación Centro Nacional de Innovación Tecnológica (CENIT),9999,Cobalt Strike,shodan,2026-01-13_11-37-27
+152.67.58.223,Brazil,São Paulo,AS31898,Oracle Corporation,Oracle Public Cloud,8080,Hack5 Cloud C2,shodan,2026-01-13_05-53-29
+156.244.39.44,Peru,Lima,AS138915,Kaopu Cloud HK Limited,Lightnode Limited,1604;11434,CHAOS;CHAOS,shodan,2026-01-09_17-34-42
+157.151.4.17,Brazil,Vinhedo,AS31898,ORACLE-BMC-31898,unknown,3333,GoPhish,censys,2026-01-13_11-02-22
+161.132.220.65,Peru,Lima,AS27843,WIN EMPRESAS S.A.C.,unknown,8080,Quasar,censys,2026-01-13_12-10-41
+161.132.51.222,Peru,Lima,AS3132,Red Cientifica Peruana,unknown,3333,GoPhish,censys,2026-01-13_08-12-34
+161.132.54.23,Peru,Lima,AS3132,Red Cientifica Peruana,unknown,8081,GoPhish,censys,2026-01-07_01-42-12
+167.234.226.89,Brazil,São Paulo,AS31898,ORACLE-BMC-31898,unknown,443,GoPhish,censys,2026-01-13_09-22-31
+168.138.128.79,Brazil,São Paulo,AS31898,ORACLE-BMC-31898,unknown,3333,GoPhish,censys,2026-01-13_07-12-49
+170.231.155.101,Brazil,Varginha,AS263424,Fonelight Telecomunicações S/A,Fonelight Telecomunicações S/A,3790,Metasploit,shodan,2025-12-26_00-53-40
+170.239.86.183,Chile,Santiago,AS52368,ZAM LTDA.,ZAM LTDA.,3333;3333,GoPhish;GoPhish,shodan,2025-12-15_03-08-50
+170.239.86.232,Chile,Santiago,AS52368,ZAM LTDA.,ZAM LTDA.,3333;3333,GoPhish;GoPhish,shodan,2025-12-30_12-46-13
+172.233.1.83,Brazil,São Paulo,AS63949,AKAMAI-LINODE-AP Akamai Connected Cloud,unknown,443,Havoc,censys,2026-01-09_16-14-23
+172.233.25.95,Brazil,São Paulo,AS63949,AKAMAI-LINODE-AP Akamai Connected Cloud,unknown,3333,GoPhish,censys,2026-01-13_11-19-59
+172.233.27.101,Brazil,São Paulo,AS63949,Akamai Connected Cloud,Linode,1167,CHAOS,shodan,2025-12-28_05-50-23
+177.104.176.211,Brazil,São Paulo,AS53107,EVEO S.A.,unknown,8080,GoPhish,censys,2026-01-13_13-19-31
+177.124.72.24,Brazil,Belo Horizonte,AS52601,FAXT TELECOMUNICACOES LTDA,FAXT TELECOMUNICACOES LTDA,31337;443;11180,Sliver;Havoc;UnamWebPanel,shodan,2026-01-13_08-17-20
+177.136.225.181,Brazil,São Paulo,AS53107,EVEO S.A.,unknown,10035,Cobalt Strike,censys,2026-01-09_21-10-21
+177.89.234.43,Brazil,Natal,AS28220,Alares Cabo Servicos de Telecomunicacoes S.A.,CABO SERVICOS DE TELECOMUNICACOES LTDA,1177,njRat,shodan,2026-01-06_01-39-45
+179.0.178.198,Brazil,Belo Horizonte,AS270564,MASTER DA WEB DATACENTER LTDA,unknown,1080,Quasar,censys,2026-01-13_03-18-32
+179.0.178.79,Brazil,Belo Horizonte,AS270564,MASTER DA WEB DATACENTER LTDA,unknown,1080,Quasar,censys,2026-01-02_19-13-48
+181.174.164.116,Panama,Panamá,AS52469,Offshore Racks S.A,unknown,31337,Sliver,censys,2026-01-13_11-52-54
+181.176.215.140,Peru,Lima,AS262210,VIETTEL PERU S.A.C.,unknown,80,GoPhish,censys,2026-01-13_08-14-53
+181.206.158.190,Colombia,Barranquilla,AS27831,Colombia Movil,unknown,1000,DCRat,censys,2026-01-02_16-17-48
+186.17.213.66,Paraguay,Limpio,AS23201,Telecel S.A.,Telecel S.A.,3790,Metasploit,shodan,2026-01-13_08-10-48
+186.177.71.142,Costa Rica,San José,AS262197,MILLICOM CABLE COSTA RICA S.A.,MILLICOM CABLE COSTA RICA S.A.,3333;3333,GoPhish;GoPhish,shodan,2026-01-08_21-10-54
+187.45.170.66,Brazil,Rio de Janeiro,AS28137,Vialink Solucoes de Tecnologia Ltda,unknown,3333,GoPhish,censys,2026-01-13_12-28-25
+187.45.79.131,Brazil,Triunfo,AS28343,UNIFIQUE TELECOMUNICACOES SA,unknown,3333,GoPhish,censys,2026-01-13_12-32-19
+190.104.242.91,Argentina,Buenos Aires,AS11014,CPS,unknown,43333,GoPhish,censys,2026-01-13_11-56-29
+190.104.242.92,Argentina,Buenos Aires,AS11014,CPS,unknown,43333,GoPhish,censys,2026-01-13_12-28-04
+190.110.41.114,Ecuador,Quito,AS22724,PUNTONET S.A.,unknown,3333,GoPhish,censys,2026-01-13_12-29-14
+190.111.234.234,Argentina,Buenos Aires,AS11014,CPS,unknown,43333,GoPhish,censys,2026-01-13_12-08-05
+190.119.16.140,Peru,Lima,AS12252,America Movil Peru S.A.C.,unknown,443,GoPhish,censys,2026-01-13_06-12-18
+190.119.63.144,Peru,Lima,AS12252,America Movil Peru S.A.C.,America Movil Peru S.A.C.,443;443,GoPhish;GoPhish,shodan,2025-12-30_07-56-58
+191.209.58.15,Brazil,São Paulo,AS27699,TELEFONICA BRASIL S.A,unknown,3333,GoPhish,censys,2026-01-10_09-30-49
+191.93.113.160,Colombia,Barranquilla,AS27831,Colombia Movil,unknown,8848,DCRat,censys,2026-01-05_18-30-31
+191.93.118.254,Colombia,Barranquilla,AS27831,Colombia Movil,unknown,9000;8848,AsyncRAT;DCRat,censys,2026-01-13_12-34-59
+200.10.229.166,Paraguay,San Lorenzo,AS27733,Centro Nacional de Computacion,unknown,3333,GoPhish,censys,2026-01-13_12-40-27
+200.219.214.190,Brazil,São Paulo,AS15830,EQUINIX,unknown,3333,GoPhish,censys,2026-01-13_13-12-04
+200.38.160.49,Mexico,Mexico City,AS13579,INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION,unknown,3333,GoPhish,censys,2026-01-13_02-14-16
+200.40.131.89,Uruguay,Montevideo,AS6057,Administracion Nacional de Telecomunicaciones,Administracion Nacional de Telecomunicaciones,31337,Sliver,shodan,2026-01-13_08-17-32
+200.85.49.125,Paraguay,Asunción,AS23201,Telecel S.A.,unknown,3333,GoPhish,censys,2026-01-02_00-18-19
+200.9.4.41,Paraguay,Asunción,AS23201,Telecel S.A.,unknown,443,GoPhish,censys,2026-01-13_12-16-02
+201.16.156.113,Brazil,São Paulo,AS16735,ALGAR TELECOM SA,unknown,3333,GoPhish,censys,2026-01-12_22-14-27
+201.92.133.149,Brazil,São Paulo,AS27699,TELEFÔNICA BRASIL S.A,TELEFÔNICA BRASIL S.A,8081,Havoc,shodan,2025-12-22_01-54-38
+34.176.142.248,Chile,Santiago,AS396982,Google LLC,Google LLC,80;443;80;443,GoPhish;GoPhish;GoPhish;GoPhish,shodan,2026-01-13_13-18-25
+38.56.209.142,El Salvador,Antiguo Cuscatlán,AS174,Cogent Communications,DIGICEL S.A. DE C.V.,7443;8443;7443;8443,GoPhish;GoPhish;GoPhish;GoPhish,shodan,2026-01-13_09-54-17
+4.201.122.3,Brazil,Campinas,AS8075,MICROSOFT-CORP-MSN-AS-BLOCK,unknown,443,GoPhish,censys,2026-01-13_03-10-30
+4.201.140.200,Brazil,São Paulo,AS8075,Microsoft Corporation,Microsoft Corporation,3333;3333,GoPhish;GoPhish,shodan,2026-01-13_06-55-31
+4.201.155.137,Brazil,São Paulo,AS8075,Microsoft Corporation,Microsoft Corporation,31337,Sliver,shodan,2026-01-12_10-42-51
+4.201.185.160,Brazil,São Paulo,AS8075,Microsoft Corporation,Microsoft Corporation,31337,Sliver,shodan,2025-12-16_11-49-04
+40.233.26.200,Mexico,Triana,AS31898,ORACLE-BMC-31898,unknown,3333,GoPhish,censys,2026-01-13_00-10-58
+45.225.129.11,Brazil,Rolândia,AS271239,Altatech Solucoes em Tecnologia EIRELI,unknown,3333,GoPhish,censys,2026-01-13_08-12-57
+45.225.129.50,Brazil,Rolândia,AS271239,Altatech Solucoes em Tecnologia EIRELI,unknown,3333,GoPhish,censys,2026-01-06_12-42-16
+45.226.189.70,Brazil,Curitiba,AS266997,MPTEC INFORMATICA LTDA - ME,unknown,3333,GoPhish,censys,2026-01-13_10-22-56
+45.227.61.113,Brazil,São Paulo,AS271366,SMART TECNOLOGIAS E SOLUCOES APLICADAS LTDA,unknown,3333,GoPhish,censys,2026-01-13_10-24-20
+45.236.130.44,Chile,Santiago,AS64111,INFORMATICA BLUEHOSTING LIMITADA,INFORMATICA BLUEHOSTING LIMITADA,31337,Sliver,shodan,2025-12-15_14-32-17
+54.232.144.183,Brazil,São Paulo,AS16509,AMAZON-02,unknown,443,Mythic,censys,2026-01-13_08-13-39

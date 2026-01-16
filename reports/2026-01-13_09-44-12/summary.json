@@ -1,0 +1,944 @@
+{
+  "generated_at": "2026-01-13T14:44:12Z",
+  "current_snapshot_link": "REPLACE_ME_WITH_CURRENT_SNAPSHOT_LINK",
+  "current": {
+    "ip_count": 64,
+    "unique_ports": 21,
+    "threat_frameworks": 13,
+    "countries": 13,
+    "cities": 27,
+    "asns": 39,
+    "tops": {
+      "threats": [
+        [
+          "GoPhish",
+          50
+        ],
+        [
+          "Sliver",
+          8
+        ],
+        [
+          "DCRat",
+          3
+        ],
+        [
+          "Cobalt Strike",
+          3
+        ],
+        [
+          "Havoc",
+          3
+        ],
+        [
+          "Quasar",
+          3
+        ],
+        [
+          "CHAOS",
+          3
+        ],
+        [
+          "Metasploit",
+          2
+        ],
+        [
+          "AsyncRAT",
+          1
+        ],
+        [
+          "UnamWebPanel",
+          1
+        ],
+        [
+          "Mythic",
+          1
+        ],
+        [
+          "Hack5 Cloud C2",
+          1
+        ]
+      ],
+      "countries": [
+        [
+          "Brazil",
+          33
+        ],
+        [
+          "Peru",
+          7
+        ],
+        [
+          "Mexico",
+          4
+        ],
+        [
+          "Paraguay",
+          4
+        ],
+        [
+          "Chile",
+          4
+        ],
+        [
+          "Colombia",
+          3
+        ],
+        [
+          "Argentina",
+          3
+        ],
+        [
+          "Panama",
+          1
+        ],
+        [
+          "El Salvador",
+          1
+        ],
+        [
+          "Costa Rica",
+          1
+        ],
+        [
+          "Ecuador",
+          1
+        ],
+        [
+          "Venezuela, Bolivarian Republic of",
+          1
+        ]
+      ],
+      "cities": [
+        [
+          "S\u00e3o Paulo",
+          21
+        ],
+        [
+          "Lima",
+          7
+        ],
+        [
+          "Santiago",
+          4
+        ],
+        [
+          "Barranquilla",
+          3
+        ],
+        [
+          "Belo Horizonte",
+          3
+        ],
+        [
+          "Buenos Aires",
+          3
+        ],
+        [
+          "Asunci\u00f3n",
+          2
+        ],
+        [
+          "Rol\u00e2ndia",
+          2
+        ],
+        [
+          "La Ca\u00f1ada",
+          1
+        ],
+        [
+          "Panam\u00e1",
+          1
+        ],
+        [
+          "Triana",
+          1
+        ],
+        [
+          "Rio de Janeiro",
+          1
+        ]
+      ],
+      "asns": [
+        [
+          "31898",
+          7
+        ],
+        [
+          "8075",
+          4
+        ],
+        [
+          "27831",
+          3
+        ],
+        [
+          "63949",
+          3
+        ],
+        [
+          "23201",
+          3
+        ],
+        [
+          "11014",
+          3
+        ],
+        [
+          "53107",
+          2
+        ],
+        [
+          "16509",
+          2
+        ],
+        [
+          "270564",
+          2
+        ],
+        [
+          "12252",
+          2
+        ],
+        [
+          "27699",
+          2
+        ],
+        [
+          "3132",
+          2
+        ]
+      ],
+      "isps": [
+        [
+          "ORACLE-BMC-31898",
+          5
+        ],
+        [
+          "Colombia Movil",
+          3
+        ],
+        [
+          "Telecel S.A.",
+          3
+        ],
+        [
+          "CPS",
+          3
+        ],
+        [
+          "Microsoft Corporation",
+          3
+        ],
+        [
+          "EVEO S.A.",
+          2
+        ],
+        [
+          "Oracle Corporation",
+          2
+        ],
+        [
+          "MASTER DA WEB DATACENTER LTDA",
+          2
+        ],
+        [
+          "AKAMAI-LINODE-AP Akamai Connected Cloud",
+          2
+        ],
+        [
+          "America Movil Peru S.A.C.",
+          2
+        ],
+        [
+          "Red Cientifica Peruana",
+          2
+        ],
+        [
+          "Altatech Solucoes em Tecnologia EIRELI",
+          2
+        ]
+      ],
+      "orgs": [
+        [
+          "unknown",
+          40
+        ],
+        [
+          "Microsoft Corporation",
+          3
+        ],
+        [
+          "ZAM LTDA.",
+          2
+        ],
+        [
+          "FAXT TELECOMUNICACOES LTDA",
+          1
+        ],
+        [
+          "Oracle Public Cloud",
+          1
+        ],
+        [
+          "Equinix Services, Inc.",
+          1
+        ],
+        [
+          "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+          1
+        ],
+        [
+          "DIGICEL S.A. DE C.V.",
+          1
+        ],
+        [
+          "Google LLC",
+          1
+        ],
+        [
+          "Oracle Corporation",
+          1
+        ],
+        [
+          "MILLICOM CABLE COSTA RICA S.A.",
+          1
+        ],
+        [
+          "Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT)",
+          1
+        ]
+      ],
+      "ports": [
+        [
+          "3333",
+          27
+        ],
+        [
+          "443",
+          11
+        ],
+        [
+          "31337",
+          8
+        ],
+        [
+          "8443",
+          5
+        ],
+        [
+          "80",
+          4
+        ],
+        [
+          "8080",
+          3
+        ],
+        [
+          "43333",
+          3
+        ],
+        [
+          "8848",
+          2
+        ],
+        [
+          "1080",
+          2
+        ],
+        [
+          "7443",
+          2
+        ],
+        [
+          "8081",
+          2
+        ],
+        [
+          "3790",
+          2
+        ]
+      ]
+    }
+  },
+  "delta": {
+    "ips": {
+      "new": [
+        "144.22.192.165",
+        "144.22.207.61",
+        "148.230.153.56",
+        "157.151.4.17",
+        "161.132.51.222",
+        "161.132.54.23",
+        "167.234.226.89",
+        "168.138.128.79",
+        "170.239.86.183",
+        "170.239.86.232",
+        "172.233.25.95",
+        "177.104.176.211",
+        "181.176.215.140",
+        "186.177.71.142",
+        "187.45.170.66",
+        "187.45.79.131",
+        "190.104.242.91",
+        "190.104.242.92",
+        "190.110.41.114",
+        "190.111.234.234",
+        "190.119.16.140",
+        "190.119.63.144",
+        "191.209.58.15",
+        "200.10.229.166",
+        "200.219.214.190",
+        "200.38.160.49",
+        "200.40.131.89",
+        "200.85.49.125",
+        "200.9.4.41",
+        "201.16.156.113",
+        "34.176.142.248",
+        "38.56.209.142",
+        "4.201.122.3",
+        "4.201.140.200",
+        "40.233.26.200",
+        "45.225.129.11",
+        "45.225.129.50",
+        "45.226.189.70",
+        "45.227.61.113"
+      ],
+      "removed": [],
+      "common": [
+        "147.28.223.190",
+        "147.45.116.18",
+        "15.228.3.86",
+        "150.187.25.242",
+        "152.67.58.223",
+        "156.244.39.44",
+        "161.132.220.65",
+        "170.231.155.101",
+        "172.233.1.83",
+        "172.233.27.101",
+        "177.124.72.24",
+        "177.136.225.181",
+        "177.89.234.43",
+        "179.0.178.198",
+        "179.0.178.79",
+        "181.174.164.116",
+        "181.206.158.190",
+        "186.17.213.66",
+        "191.93.113.160",
+        "191.93.118.254",
+        "201.92.133.149",
+        "4.201.155.137",
+        "4.201.185.160",
+        "45.236.130.44",
+        "54.232.144.183"
+      ]
+    },
+    "threats": {
+      "new": [
+        "GoPhish"
+      ],
+      "removed": [],
+      "common": [
+        "AsyncRAT",
+        "CHAOS",
+        "Cobalt Strike",
+        "DCRat",
+        "Hack5 Cloud C2",
+        "Havoc",
+        "Metasploit",
+        "Mythic",
+        "Quasar",
+        "Sliver",
+        "UnamWebPanel",
+        "njRat"
+      ]
+    },
+    "countries": {
+      "new": [
+        "Argentina",
+        "Costa Rica",
+        "Ecuador",
+        "El Salvador",
+        "Uruguay"
+      ],
+      "removed": [],
+      "common": [
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Mexico",
+        "Panama",
+        "Paraguay",
+        "Peru",
+        "Venezuela, Bolivarian Republic of"
+      ]
+    },
+    "cities": {
+      "new": [
+        "Antiguo Cuscatl\u00e1n",
+        "Asunci\u00f3n",
+        "Buenos Aires",
+        "Campinas",
+        "Curitiba",
+        "Mexico City",
+        "Montevideo",
+        "Quito",
+        "Rio de Janeiro",
+        "Rol\u00e2ndia",
+        "San Jos\u00e9",
+        "San Lorenzo",
+        "Torre\u00f3n",
+        "Triana",
+        "Triunfo",
+        "Vinhedo"
+      ],
+      "removed": [],
+      "common": [
+        "Barquisimeto",
+        "Barranquilla",
+        "Belo Horizonte",
+        "La Ca\u00f1ada",
+        "Lima",
+        "Limpio",
+        "Natal",
+        "Panam\u00e1",
+        "Santiago",
+        "S\u00e3o Paulo",
+        "Varginha"
+      ]
+    },
+    "asns": {
+      "new": [
+        "11014",
+        "12252",
+        "13579",
+        "15830",
+        "16735",
+        "174",
+        "22724",
+        "22884",
+        "262197",
+        "262210",
+        "266997",
+        "271239",
+        "271366",
+        "27733",
+        "28137",
+        "28343",
+        "3132",
+        "396982",
+        "52368",
+        "6057"
+      ],
+      "removed": [],
+      "common": [
+        "138915",
+        "16509",
+        "20312",
+        "215540",
+        "23201",
+        "263424",
+        "270564",
+        "27699",
+        "27831",
+        "27843",
+        "28220",
+        "31898",
+        "52469",
+        "52601",
+        "53107",
+        "54825",
+        "63949",
+        "64111",
+        "8075"
+      ]
+    },
+    "isps": {
+      "new": [
+        "ALGAR TELECOM SA",
+        "Administracion Nacional de Telecomunicaciones",
+        "Altatech Solucoes em Tecnologia EIRELI",
+        "America Movil Peru S.A.C.",
+        "CPS",
+        "Centro Nacional de Computacion",
+        "Cogent Communications",
+        "EQUINIX",
+        "Google LLC",
+        "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION",
+        "MICROSOFT-CORP-MSN-AS-BLOCK",
+        "MILLICOM CABLE COSTA RICA S.A.",
+        "MPTEC INFORMATICA LTDA - ME",
+        "ORACLE-BMC-31898",
+        "PUNTONET S.A.",
+        "Red Cientifica Peruana",
+        "SMART TECNOLOGIAS E SOLUCOES APLICADAS LTDA",
+        "TELEFONICA BRASIL S.A",
+        "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+        "UNIFIQUE TELECOMUNICACOES SA",
+        "VIETTEL PERU S.A.C.",
+        "Vialink Solucoes de Tecnologia Ltda",
+        "ZAM LTDA."
+      ],
+      "removed": [
+        "Colombia M\u00f3vil"
+      ],
+      "common": [
+        "AKAMAI-LINODE-AP Akamai Connected Cloud",
+        "AMAZON-02",
+        "Akamai Connected Cloud",
+        "Alares Cabo Servicos de Telecomunicacoes S.A.",
+        "Amazon.com, Inc.",
+        "Colombia Movil",
+        "EVEO S.A.",
+        "FAXT TELECOMUNICACOES LTDA",
+        "Fonelight Telecomunica\u00e7\u00f5es S/A",
+        "Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT)",
+        "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+        "INFORMATICA BLUEHOSTING LIMITADA",
+        "Kaopu Cloud HK Limited",
+        "MASTER DA WEB DATACENTER LTDA",
+        "Microsoft Corporation",
+        "Offshore Racks S.A",
+        "Oracle Corporation",
+        "Packet Host, Inc.",
+        "TELEF\u00d4NICA BRASIL S.A",
+        "Telecel S.A.",
+        "WIN EMPRESAS S.A.C."
+      ]
+    },
+    "orgs": {
+      "new": [
+        "Administracion Nacional de Telecomunicaciones",
+        "America Movil Peru S.A.C.",
+        "DIGICEL S.A. DE C.V.",
+        "Google LLC",
+        "MILLICOM CABLE COSTA RICA S.A.",
+        "Oracle Corporation",
+        "ZAM LTDA."
+      ],
+      "removed": [
+        "Colombia M\u00f3vil",
+        "Offshore Racks S.A"
+      ],
+      "common": [
+        "Amazon Data Services Brazil",
+        "CABO SERVICOS DE TELECOMUNICACOES LTDA",
+        "Equinix Services, Inc.",
+        "FAXT TELECOMUNICACOES LTDA",
+        "Fonelight Telecomunica\u00e7\u00f5es S/A",
+        "Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT)",
+        "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+        "INFORMATICA BLUEHOSTING LIMITADA",
+        "Lightnode Limited",
+        "Linode",
+        "Microsoft Corporation",
+        "Oracle Public Cloud",
+        "TELEF\u00d4NICA BRASIL S.A",
+        "Telecel S.A.",
+        "unknown"
+      ]
+    },
+    "ports": {
+      "new": [
+        "3333",
+        "43333",
+        "7443",
+        "8443"
+      ],
+      "removed": [],
+      "common": [
+        "1000",
+        "10035",
+        "1080",
+        "11180",
+        "11434",
+        "1167",
+        "1177",
+        "1604",
+        "31337",
+        "3790",
+        "443",
+        "80",
+        "8080",
+        "8081",
+        "8848",
+        "9000",
+        "9999"
+      ]
+    },
+    "ip_reuse": [
+      {
+        "ip": "191.93.118.254",
+        "before": [
+          "AsyncRAT"
+        ],
+        "after": [
+          "AsyncRAT",
+          "DCRat"
+        ],
+        "added": [
+          "DCRat"
+        ],
+        "removed": []
+      }
+    ],
+    "delta_edges": {
+      "country_threat": [
+        [
+          [
+            "Brazil",
+            "GoPhish"
+          ],
+          20
+        ],
+        [
+          [
+            "Chile",
+            "GoPhish"
+          ],
+          8
+        ],
+        [
+          [
+            "Peru",
+            "GoPhish"
+          ],
+          6
+        ],
+        [
+          [
+            "El Salvador",
+            "GoPhish"
+          ],
+          4
+        ],
+        [
+          [
+            "Mexico",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "Paraguay",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "Argentina",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "Costa Rica",
+            "GoPhish"
+          ],
+          2
+        ],
+        [
+          [
+            "Ecuador",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "Uruguay",
+            "Sliver"
+          ],
+          1
+        ]
+      ],
+      "asn_threat": [
+        [
+          [
+            "31898",
+            "GoPhish"
+          ],
+          7
+        ],
+        [
+          [
+            "174",
+            "GoPhish"
+          ],
+          4
+        ],
+        [
+          [
+            "396982",
+            "GoPhish"
+          ],
+          4
+        ],
+        [
+          [
+            "52368",
+            "GoPhish"
+          ],
+          4
+        ],
+        [
+          [
+            "12252",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "11014",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "8075",
+            "GoPhish"
+          ],
+          3
+        ],
+        [
+          [
+            "23201",
+            "GoPhish"
+          ],
+          2
+        ],
+        [
+          [
+            "3132",
+            "GoPhish"
+          ],
+          2
+        ],
+        [
+          [
+            "271239",
+            "GoPhish"
+          ],
+          2
+        ],
+        [
+          [
+            "262197",
+            "GoPhish"
+          ],
+          2
+        ],
+        [
+          [
+            "28137",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "15830",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "16735",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "271366",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "27699",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "53107",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "266997",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "22884",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "262210",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "22724",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "27733",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "28343",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "63949",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "13579",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "6057",
+            "Sliver"
+          ],
+          1
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1064 @@
+{
+  "Event": {
+    "info": "ZoqueLabs LATAM Infra Snapshot",
+    "date": "2026-01-13",
+    "published": false,
+    "analysis": 1,
+    "threat_level_id": 2,
+    "distribution": 0,
+    "Orgc": {
+      "name": "ZoqueLabs"
+    },
+    "Attribute": [
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "191.93.113.160",
+        "comment": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; source=censys; last_scan=2026-01-05_18-30-31"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8848",
+        "comment": "Observed open port for 191.93.113.160"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "181.206.158.190",
+        "comment": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; source=censys; last_scan=2026-01-02_16-17-48"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1000",
+        "comment": "Observed open port for 181.206.158.190"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "177.136.225.181",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS53107; isp=EVEO S.A.; source=censys; last_scan=2026-01-09_21-10-21"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "10035",
+        "comment": "Observed open port for 177.136.225.181"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "191.93.118.254",
+        "comment": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; source=censys; last_scan=2026-01-13_12-34-59"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "9000",
+        "comment": "Observed open port for 191.93.118.254"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8848",
+        "comment": "Observed open port for 191.93.118.254"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "177.124.72.24",
+        "comment": "country=Brazil; city=Belo Horizonte; asn=AS52601; isp=FAXT TELECOMUNICACOES LTDA; source=shodan; last_scan=2026-01-13_08-17-20"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 177.124.72.24"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 177.124.72.24"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "11180",
+        "comment": "Observed open port for 177.124.72.24"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "54.232.144.183",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=AMAZON-02; source=censys; last_scan=2026-01-13_08-13-39"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 54.232.144.183"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "152.67.58.223",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=Oracle Corporation; source=shodan; last_scan=2026-01-13_05-53-29"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8080",
+        "comment": "Observed open port for 152.67.58.223"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "179.0.178.79",
+        "comment": "country=Brazil; city=Belo Horizonte; asn=AS270564; isp=MASTER DA WEB DATACENTER LTDA; source=censys; last_scan=2026-01-02_19-13-48"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1080",
+        "comment": "Observed open port for 179.0.178.79"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "147.28.223.190",
+        "comment": "country=Mexico; city=La Ca\u00f1ada; asn=AS54825; isp=Packet Host, Inc.; source=shodan; last_scan=2026-01-04_18-32-22"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 147.28.223.190"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "147.45.116.18",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS215540; isp=GLOBAL CONNECTIVITY SOLUTIONS LLP; source=shodan; last_scan=2026-01-13_08-16-49"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 147.45.116.18"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "181.174.164.116",
+        "comment": "country=Panama; city=Panam\u00e1; asn=AS52469; isp=Offshore Racks S.A; source=censys; last_scan=2026-01-13_11-52-54"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 181.174.164.116"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "161.132.220.65",
+        "comment": "country=Peru; city=Lima; asn=AS27843; isp=WIN EMPRESAS S.A.C.; source=censys; last_scan=2026-01-13_12-10-41"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8080",
+        "comment": "Observed open port for 161.132.220.65"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "172.233.1.83",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=AKAMAI-LINODE-AP Akamai Connected Cloud; source=censys; last_scan=2026-01-09_16-14-23"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 172.233.1.83"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "179.0.178.198",
+        "comment": "country=Brazil; city=Belo Horizonte; asn=AS270564; isp=MASTER DA WEB DATACENTER LTDA; source=censys; last_scan=2026-01-13_03-18-32"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1080",
+        "comment": "Observed open port for 179.0.178.198"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "40.233.26.200",
+        "comment": "country=Mexico; city=Triana; asn=AS31898; isp=ORACLE-BMC-31898; source=censys; last_scan=2026-01-13_00-10-58"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 40.233.26.200"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "187.45.170.66",
+        "comment": "country=Brazil; city=Rio de Janeiro; asn=AS28137; isp=Vialink Solucoes de Tecnologia Ltda; source=censys; last_scan=2026-01-13_12-28-25"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 187.45.170.66"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.119.16.140",
+        "comment": "country=Peru; city=Lima; asn=AS12252; isp=America Movil Peru S.A.C.; source=censys; last_scan=2026-01-13_06-12-18"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 190.119.16.140"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.219.214.190",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS15830; isp=EQUINIX; source=censys; last_scan=2026-01-13_13-12-04"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 200.219.214.190"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "201.16.156.113",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS16735; isp=ALGAR TELECOM SA; source=censys; last_scan=2026-01-12_22-14-27"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 201.16.156.113"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.9.4.41",
+        "comment": "country=Paraguay; city=Asunci\u00f3n; asn=AS23201; isp=Telecel S.A.; source=censys; last_scan=2026-01-13_12-16-02"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 200.9.4.41"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "45.227.61.113",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS271366; isp=SMART TECNOLOGIAS E SOLUCOES APLICADAS LTDA; source=censys; last_scan=2026-01-13_10-24-20"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 45.227.61.113"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "168.138.128.79",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898; source=censys; last_scan=2026-01-13_07-12-49"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 168.138.128.79"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "38.56.209.142",
+        "comment": "country=El Salvador; city=Antiguo Cuscatl\u00e1n; asn=AS174; isp=Cogent Communications; source=shodan; last_scan=2026-01-13_09-54-17"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "7443",
+        "comment": "Observed open port for 38.56.209.142"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8443",
+        "comment": "Observed open port for 38.56.209.142"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "7443",
+        "comment": "Observed open port for 38.56.209.142"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8443",
+        "comment": "Observed open port for 38.56.209.142"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.111.234.234",
+        "comment": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; source=censys; last_scan=2026-01-13_12-08-05"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "43333",
+        "comment": "Observed open port for 190.111.234.234"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "191.209.58.15",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS27699; isp=TELEFONICA BRASIL S.A; source=censys; last_scan=2026-01-10_09-30-49"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 191.209.58.15"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "177.104.176.211",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS53107; isp=EVEO S.A.; source=censys; last_scan=2026-01-13_13-19-31"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8080",
+        "comment": "Observed open port for 177.104.176.211"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "161.132.51.222",
+        "comment": "country=Peru; city=Lima; asn=AS3132; isp=Red Cientifica Peruana; source=censys; last_scan=2026-01-13_08-12-34"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 161.132.51.222"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "45.225.129.11",
+        "comment": "country=Brazil; city=Rol\u00e2ndia; asn=AS271239; isp=Altatech Solucoes em Tecnologia EIRELI; source=censys; last_scan=2026-01-13_08-12-57"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 45.225.129.11"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "45.225.129.50",
+        "comment": "country=Brazil; city=Rol\u00e2ndia; asn=AS271239; isp=Altatech Solucoes em Tecnologia EIRELI; source=censys; last_scan=2026-01-06_12-42-16"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 45.225.129.50"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.85.49.125",
+        "comment": "country=Paraguay; city=Asunci\u00f3n; asn=AS23201; isp=Telecel S.A.; source=censys; last_scan=2026-01-02_00-18-19"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 200.85.49.125"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "45.226.189.70",
+        "comment": "country=Brazil; city=Curitiba; asn=AS266997; isp=MPTEC INFORMATICA LTDA - ME; source=censys; last_scan=2026-01-13_10-22-56"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 45.226.189.70"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "34.176.142.248",
+        "comment": "country=Chile; city=Santiago; asn=AS396982; isp=Google LLC; source=shodan; last_scan=2026-01-13_13-18-25"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "80",
+        "comment": "Observed open port for 34.176.142.248"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 34.176.142.248"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "80",
+        "comment": "Observed open port for 34.176.142.248"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 34.176.142.248"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "4.201.140.200",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; source=shodan; last_scan=2026-01-13_06-55-31"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 4.201.140.200"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 4.201.140.200"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "148.230.153.56",
+        "comment": "country=Mexico; city=Torre\u00f3n; asn=AS22884; isp=TOTAL PLAY TELECOMUNICACIONES SA DE CV; source=censys; last_scan=2026-01-09_22-10-30"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 148.230.153.56"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.104.242.92",
+        "comment": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; source=censys; last_scan=2026-01-13_12-28-04"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "43333",
+        "comment": "Observed open port for 190.104.242.92"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.104.242.91",
+        "comment": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; source=censys; last_scan=2026-01-13_11-56-29"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "43333",
+        "comment": "Observed open port for 190.104.242.91"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "157.151.4.17",
+        "comment": "country=Brazil; city=Vinhedo; asn=AS31898; isp=ORACLE-BMC-31898; source=censys; last_scan=2026-01-13_11-02-22"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 157.151.4.17"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "144.22.207.61",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=Oracle Corporation; source=shodan; last_scan=2026-01-13_04-25-16"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8443",
+        "comment": "Observed open port for 144.22.207.61"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8443",
+        "comment": "Observed open port for 144.22.207.61"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "181.176.215.140",
+        "comment": "country=Peru; city=Lima; asn=AS262210; isp=VIETTEL PERU S.A.C.; source=censys; last_scan=2026-01-13_08-14-53"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "80",
+        "comment": "Observed open port for 181.176.215.140"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "186.177.71.142",
+        "comment": "country=Costa Rica; city=San Jos\u00e9; asn=AS262197; isp=MILLICOM CABLE COSTA RICA S.A.; source=shodan; last_scan=2026-01-08_21-10-54"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 186.177.71.142"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 186.177.71.142"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.110.41.114",
+        "comment": "country=Ecuador; city=Quito; asn=AS22724; isp=PUNTONET S.A.; source=censys; last_scan=2026-01-13_12-29-14"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 190.110.41.114"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "161.132.54.23",
+        "comment": "country=Peru; city=Lima; asn=AS3132; isp=Red Cientifica Peruana; source=censys; last_scan=2026-01-07_01-42-12"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8081",
+        "comment": "Observed open port for 161.132.54.23"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "144.22.192.165",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898; source=censys; last_scan=2026-01-13_04-20-13"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8443",
+        "comment": "Observed open port for 144.22.192.165"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "167.234.226.89",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898; source=censys; last_scan=2026-01-13_09-22-31"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 167.234.226.89"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.10.229.166",
+        "comment": "country=Paraguay; city=San Lorenzo; asn=AS27733; isp=Centro Nacional de Computacion; source=censys; last_scan=2026-01-13_12-40-27"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 200.10.229.166"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "187.45.79.131",
+        "comment": "country=Brazil; city=Triunfo; asn=AS28343; isp=UNIFIQUE TELECOMUNICACOES SA; source=censys; last_scan=2026-01-13_12-32-19"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 187.45.79.131"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "4.201.122.3",
+        "comment": "country=Brazil; city=Campinas; asn=AS8075; isp=MICROSOFT-CORP-MSN-AS-BLOCK; source=censys; last_scan=2026-01-13_03-10-30"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 4.201.122.3"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "172.233.25.95",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=AKAMAI-LINODE-AP Akamai Connected Cloud; source=censys; last_scan=2026-01-13_11-19-59"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 172.233.25.95"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.38.160.49",
+        "comment": "country=Mexico; city=Mexico City; asn=AS13579; isp=INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION; source=censys; last_scan=2026-01-13_02-14-16"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 200.38.160.49"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "150.187.25.242",
+        "comment": "country=Venezuela, Bolivarian Republic of; city=Barquisimeto; asn=AS20312; isp=Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT); source=shodan; last_scan=2026-01-13_11-37-27"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "9999",
+        "comment": "Observed open port for 150.187.25.242"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "15.228.3.86",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=Amazon.com, Inc.; source=shodan; last_scan=2026-01-06_03-05-38"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "80",
+        "comment": "Observed open port for 15.228.3.86"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "201.92.133.149",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS27699; isp=TELEF\u00d4NICA BRASIL S.A; source=shodan; last_scan=2025-12-22_01-54-38"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "8081",
+        "comment": "Observed open port for 201.92.133.149"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "4.201.185.160",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; source=shodan; last_scan=2025-12-16_11-49-04"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 4.201.185.160"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "45.236.130.44",
+        "comment": "country=Chile; city=Santiago; asn=AS64111; isp=INFORMATICA BLUEHOSTING LIMITADA; source=shodan; last_scan=2025-12-15_14-32-17"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 45.236.130.44"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "4.201.155.137",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; source=shodan; last_scan=2026-01-12_10-42-51"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 4.201.155.137"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "177.89.234.43",
+        "comment": "country=Brazil; city=Natal; asn=AS28220; isp=Alares Cabo Servicos de Telecomunicacoes S.A.; source=shodan; last_scan=2026-01-06_01-39-45"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1177",
+        "comment": "Observed open port for 177.89.234.43"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "186.17.213.66",
+        "comment": "country=Paraguay; city=Limpio; asn=AS23201; isp=Telecel S.A.; source=shodan; last_scan=2026-01-13_08-10-48"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3790",
+        "comment": "Observed open port for 186.17.213.66"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "156.244.39.44",
+        "comment": "country=Peru; city=Lima; asn=AS138915; isp=Kaopu Cloud HK Limited; source=shodan; last_scan=2026-01-09_17-34-42"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1604",
+        "comment": "Observed open port for 156.244.39.44"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "11434",
+        "comment": "Observed open port for 156.244.39.44"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "172.233.27.101",
+        "comment": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=Akamai Connected Cloud; source=shodan; last_scan=2025-12-28_05-50-23"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "1167",
+        "comment": "Observed open port for 172.233.27.101"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "170.231.155.101",
+        "comment": "country=Brazil; city=Varginha; asn=AS263424; isp=Fonelight Telecomunica\u00e7\u00f5es S/A; source=shodan; last_scan=2025-12-26_00-53-40"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3790",
+        "comment": "Observed open port for 170.231.155.101"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "200.40.131.89",
+        "comment": "country=Uruguay; city=Montevideo; asn=AS6057; isp=Administracion Nacional de Telecomunicaciones; source=shodan; last_scan=2026-01-13_08-17-32"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "31337",
+        "comment": "Observed open port for 200.40.131.89"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "170.239.86.232",
+        "comment": "country=Chile; city=Santiago; asn=AS52368; isp=ZAM LTDA.; source=shodan; last_scan=2025-12-30_12-46-13"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 170.239.86.232"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 170.239.86.232"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "190.119.63.144",
+        "comment": "country=Peru; city=Lima; asn=AS12252; isp=America Movil Peru S.A.C.; source=shodan; last_scan=2025-12-30_07-56-58"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 190.119.63.144"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "443",
+        "comment": "Observed open port for 190.119.63.144"
+      },
+      {
+        "type": "ip-dst",
+        "category": "Network activity",
+        "to_ids": true,
+        "value": "170.239.86.183",
+        "comment": "country=Chile; city=Santiago; asn=AS52368; isp=ZAM LTDA.; source=shodan; last_scan=2025-12-15_03-08-50"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 170.239.86.183"
+      },
+      {
+        "type": "port",
+        "category": "Network activity",
+        "to_ids": false,
+        "value": "3333",
+        "comment": "Observed open port for 170.239.86.183"
+      }
+    ],
+    "Tag": [
+      {
+        "name": "malware:DCRat"
+      },
+      {
+        "name": "malware:Cobalt Strike"
+      },
+      {
+        "name": "malware:AsyncRAT"
+      },
+      {
+        "name": "malware:Sliver"
+      },
+      {
+        "name": "malware:Havoc"
+      },
+      {
+        "name": "malware:UnamWebPanel"
+      },
+      {
+        "name": "malware:Mythic"
+      },
+      {
+        "name": "malware:Hack5 Cloud C2"
+      },
+      {
+        "name": "malware:Quasar"
+      },
+      {
+        "name": "malware:GoPhish"
+      },
+      {
+        "name": "malware:njRat"
+      },
+      {
+        "name": "malware:Metasploit"
+      },
+      {
+        "name": "malware:CHAOS"
+      }
+    ]
+  }
+}
