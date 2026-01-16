@@ -1,209 +1,203 @@
-# ZoqueLabs — LATAM Threat Infrastructure Snapshots
+# ZoqueLabs —  OLIM Datasets
 
-This repository contains artifacts generated from periodic snapshots of
-suspected command-and-control (C2) and malicious infrastructure observed
-in Latin America.
+> Observatorio Latinoamericano de Infraestructura Maliciosa
 
-The goal is **infrastructure mapping**, not attribution:
-low-noise collection, snapshot-based analysis, and reproducible deltas
-over time.
+OLIM URL: https://zoquelabs.xyz/OLIM (snapshot actual)
 
----
+Este repositorio contiene artefactos generados a partir de snapshots periódicos 
+de observación de actividad de servidores de comando y control (C2) e infraestructura maliciosa
+en América Latina. Los scripts para conseguir la información y organizarla se pueden
+encontrar aquí: https://github.com/ZoqueLabs/frida_data_handler
 
-## What this is
-
-- A **snapshot-based view** of malicious / suspicious network infrastructure
-- Focused on **Latin America**
-- Built to support:
-  - threat-intelligence research
-  - longitudinal analysis (infra reuse, churn, drift)
-  - future ingestion into TI platforms (MISP / STIX / Colander)
-
-Each snapshot is treated as a *moment in time*, not as live telemetry.
+El objetivo es **mapeo de infraestructura**, no atribución:
+recopilación de bajo ruido, análisis basado en snapshots y deltas reproducibles
+con el tiempo.
 
 ---
 
-## Input data (snapshot JSON)
+## Qué es esto
 
-Each snapshot is a JSON mapping of IP addresses to observed metadata:
+- Una **vista basada en snapshots** de infraestructura de red maliciosa / sospechosa
+- Centrado en **América Latina**
+- Construido para soportar:
+  - investigación en inteligencia de amenazas
+  - análisis longitudinal (infra reutilización, agitación, deriva)
+  - futura ingestión en plataformas TI (MISP / STIX / Colander)
+
+Cada snapshot se trata como un *momento en el tiempo*, no como telemetría en vivo.
+
+---
+
+## Datos de entrada (snapshot JSON)
+
+Cada snapshot es un mapeo JSON de direcciones IP a metadatos observados:
 
 ```json
 {
-  "X.X.X.X": {
+  "XXXX": {
     "threat_names": ["Cobalt Strike", "Havoc"],
-    "ports": [443, 31337],
+    "puertos": [443, 31337],
     "asn": "AS16509",
-    "org": "Amazon Data Services",
+    "org": "Servicios de datos de Amazon",
     "isp": "Amazon.com, Inc.",
-    "country": "Brazil",
-    "city": "São Paulo",
+    "país": "Brasil",
+    "ciudad": "São Paulo",
     "last_scan": "2026-01-02_16-19-23",
-    "source": "censys"
+    "fuente": "censys"
   }
 }
 ````
 
-Notes:
+Notas:
 
-* One IP may be associated with **multiple threat frameworks**
-* Ports represent **observed open ports at scan time**
-* Geo, ASN, ISP, and org strings are preserved *as observed* (no forced normalization)
+* Una IP puede estar asociada con **múltiples amenazas**
+* Los puertos representan **puertos abiertos observados en el momento del escaneo**
+* Las cadenas Geo, ASN, ISP y org se conservan *como se observa* (sin normalización forzada)
 
 ---
 
-## Generated outputs
+## Salidas generadas
 
-Running the report script produces the following files:
+La ejecución del script de informe produce los siguientes archivos:
 
 ### `report.md`
 
-Human-readable technical report, including:
+Informe técnico legible por humanos, que incluye:
 
-* Snapshot metadata
-* Global metrics (IPs, ports, threats, countries, ASNs…)
-* **Top-N lists** (compact, screen-friendly)
-* **Mermaid graphs**:
+* Metadatos de snapshots
+* Métricas globales (IP, puertos, amenazas, países, ASN…)
+* **Listas Top-N** 
+* **Gráficos Mermaid**:
 
-  * Threat distribution
-  * Country / ASN / ISP distributions
-  * Country → Threat and ASN → Threat relationships
-* **Delta section** (if previous snapshot provided):
+  * Distribución de amenazas
+  * Distribuciones de país / ASN/ISP
+  * País → Amenaza y ASN → Relaciones de amenaza
+* **Sección delta** (si se proporcionó un snapshot anterior):
 
-  * New / removed IPs
-  * New / removed malware frameworks
-  * New countries, ASNs, ISPs, ports
-  * IP reuse and threat drift
-  * Delta-only Sankey graphs
-* **Complete table of all IPs** in the current snapshot (at the bottom)
+  * IP nuevas / eliminadas
+  * Marcos de malware nuevos / eliminados
+  * Nuevos países, ASN, ISP, puertos
+  * Reutilización de IP y deriva de amenazas
+  * Gráficos Sankey exclusivos de Delta
+* **Tabla completa de todas las IP** en el snapshot actual (en la parte inferior)
 
-The report is designed to be viewable directly in
-GitHub, GitLab, or Markdown editors supporting Mermaid.
+El informe está diseñado para poder verse directamente en
+Editores de GitHub, GitLab o Markdown compatibles con Mermaid.
 
 ---
 
 ### `summary.json`
 
-Machine-readable summary:
+Resumen legible por máquinas:
 
-* Snapshot timestamp
-* Core metrics
-* Top-N values for threats, countries, ASNs, ISPs, ports
-* Delta information (when previous snapshot is provided)
-* IP reuse / threat drift details
+* Marca de tiempo de snapshot
+* Métricas básicas
+* Valores Top-N para amenazas, países, ASN, ISP, puertos
+* Información delta (cuando se proporciona la snapshot anterior)
+* Reutilización de IP / detalles de deriva de amenazas
 
-This file is suitable for:
+Este archivo es adecuado para:
 
-* dashboards
-* further automated processing
-* downstream scripts
+* paneles de control
+* procesamiento automatizado adicional
+* scripts posteriores
 
 ---
 
-### `dataset.csv`
+### `conjunto de datos.csv`
 
-Flat dataset (one row per IP), suitable for spreadsheets or quick filtering:
+Conjunto de datos plano (una fila por IP), adecuado para hojas de cálculo o filtrado rápido:
 
-Columns:
+Columnas:
 
 * `ip`
-* `country`
-* `city`
+* `país`
+* `ciudad`
 * `asn`
 * `isp`
 * `org`
-* `ports` (semicolon-separated)
-* `threat_names` (semicolon-separated)
-* `source`
-* `last_scan`
-
-This is intended for **exploration**, not enrichment.
+* `puertos` (separados por punto y coma)
+* `threat_names` (separados por punto y coma)
+* `fuente`
+* `último_escaneo`
 
 ---
 
 ### `stix2_bundle.json`
 
-Minimal **STIX 2.1** bundle export:
+Exportación mínima del paquete **STIX 2.1**:
 
-* One `identity` object (organization)
-* One `indicator` per IP
+* Un objeto `identity` (organización)
+* Un `indicador` por IP
 
-  * Pattern: `[ipv4-addr:value = 'X.X.X.X']`
-  * Labels include `c2`, `threat-infra`, and `malware:<name>`
-
-This export is intentionally conservative:
-valid STIX, easy to ingest, no over-modeled relationships.
+  * Patrón: `[ipv4-addr:value = 'XXXX']`
+  * Las etiquetas incluyen `c2`, `threat-infra` y `malware:<name>`
 
 ---
 
 ### `misp_event.json`
 
-Minimal **MISP Event** export:
+Exportación mínima **EVento MISP**:
 
-* Single Event
-* One `ip-dst` attribute per IP
-* Optional `port` attributes
-* Malware names exposed as tags (`malware:<name>`)
-* Contextual metadata (country, ASN, ISP, source) stored as comments
-
-Designed for portability and easy import into existing MISP instances.
+* Evento único
+* Un atributo `ip-dst` por IP
+* Atributos `port` opcionales
+* Nombres de malware expuestos como etiquetas (`malware:<name>`)
+* Metadatos contextuales (país, ASN, ISP, fuente) almacenados como comentarios
 
 ---
 
-## Snapshot comparison (delta logic)
+## Comparación de snapshots (lógica delta)
 
-When a previous snapshot is provided, the report computes:
+Cuando se proporciona una snapshot anterior, el informe calcula:
 
-* **New IPs** and **removed IPs**
-* **Persistent IPs**
-* **New and removed threat frameworks**
-* **New countries, ASNs, ISPs, ports**
-* **IP reuse / threat drift**
+* **Nuevas IP** y **IP eliminadas**
+* **IP persistentes**
+* **Marcos de amenazas nuevos y eliminados**
+* **Nuevos países, ASN, ISP, puertos**
+* **Reutilización de IP / deriva de amenazas**
 
-### IP reuse definition
+### Definición de reutilización de IP
 
-An IP is considered reused when:
+Una IP se considera reutilizada cuando:
 
-> The same IP appears in both snapshots **but with a different set of associated threat frameworks**.
+> La misma IP aparece en ambos snapshots **pero con un conjunto diferente de frameworks de amenazas asociados**.
 
-This captures:
+Esto captura:
 
-* infrastructure reuse
-* tooling rotation
-* operator staging changes
+* reutilización de infraestructura
+* rotación de herramientas
+* cambios en la puesta en escena del operador
 
-It does **not** imply attribution.
-
----
-
-## What this is *not*
-
-* Not a real-time monitoring system
-* Not a scanner
-* Not an attribution engine
-* Not claiming control or intent
-
-This is **observational threat-infrastructure research**.
+**no** implica atribución.
 
 ---
 
-## Intended use
+## Lo que esto *no* es
 
-* Technical reporting
-* Longitudinal TI analysis
-* Research publications
-* Civil-society threat labs
-* Capacity building in the region
+* No es un sistema de monitoreo en tiempo real
+* No es un escáner
+* No es un motor de atribución
 
 ---
 
-## License / usage
+## Uso previsto
 
-Unless stated otherwise:
+* Informes técnicos
+* Análisis longitudinal de TI
+* Publicaciones de investigación
+* Laboratorios de amenazas de la sociedad civil
+* Fortalecimiento de capacidades en la región
 
-* Data is observational
-* Interpret carefully
-* Avoid over-claiming
-* Cite responsibly
+---
+
+## Licencia / uso
+
+A menos que se indique lo contrario:
+
+* Los datos son observacionales
+* Interpretar cuidadosamente
+* Evite reclamar en exceso
+* Citar responsablemente
 
 ZoqueLabs
-
