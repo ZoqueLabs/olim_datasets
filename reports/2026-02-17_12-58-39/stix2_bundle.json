@@ -1,0 +1,1851 @@
+{
+  "type": "bundle",
+  "id": "bundle--3e038f84-ddf3-42fc-a35d-21bc2d472d6c",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "ZoqueLabs",
+      "identity_class": "organization"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8b6d257d-ca38-4964-b0f0-f2387fc5fc00",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 191.93.113.160",
+      "description": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; ports=[8848]; source=censys; last_scan=2026-01-05_18-30-31",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '191.93.113.160']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:DCRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bf5057dd-1d06-4dff-8945-aaa1b1c750d1",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 181.206.158.190",
+      "description": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; ports=[1000]; source=censys; last_scan=2026-02-17_09-10-33",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '181.206.158.190']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:DCRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--30db0386-9ce3-4e33-912d-1d49aab49452",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 177.136.225.181",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS53107; isp=EVEO S.A.; ports=[10035]; source=censys; last_scan=2026-02-17_08-02-58",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '177.136.225.181']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Cobalt Strike"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--07bfe8bd-f4fc-4a43-be66-5a8471715c72",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 191.93.118.254",
+      "description": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia M\u00f3vil; ports=[9000]; source=shodan; last_scan=2026-02-17_12-17-34",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '191.93.118.254']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:AsyncRAT"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4fbc97d5-9483-4c2d-a5a4-026c1f9e4fab",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 177.124.72.24",
+      "description": "country=Brazil; city=Belo Horizonte; asn=AS52601; isp=FAXT TELECOMUNICACOES LTDA; ports=[31337, 11180]; source=shodan; last_scan=2026-02-17_11-20-09",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '177.124.72.24']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver",
+        "malware:UnamWebPanel"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7d19df59-6aef-48c3-b4b8-a4ac2bf1ba2f",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 54.232.144.183",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=AMAZON-02 - Amazon.com, Inc.; ports=[443]; source=censys; last_scan=2026-02-17_13-10-46",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '54.232.144.183']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Mythic"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fa23befe-4814-4523-bfa5-bba4a8f4a567",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 152.67.58.223",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=Oracle Corporation; ports=[8080]; source=shodan; last_scan=2026-02-17_15-11-21",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '152.67.58.223']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Hack5 Cloud C2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--514be610-7ad9-4dd8-bcde-c222d7687844",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 179.0.178.79",
+      "description": "country=Brazil; city=Belo Horizonte; asn=AS270564; isp=MASTER DA WEB DATACENTER LTDA; ports=[1080]; source=censys; last_scan=2026-01-02_19-13-48",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '179.0.178.79']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--82874da1-9eed-4d4e-b484-0fa60b601470",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 147.28.223.190",
+      "description": "country=Mexico; city=La Ca\u00f1ada; asn=AS54825; isp=Packet Host, Inc.; ports=[31337]; source=shodan; last_scan=2026-01-04_18-32-22",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '147.28.223.190']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--81a656ac-d03b-4b96-b27a-298dfa1d6bbd",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 147.45.116.18",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS215540; isp=GLOBAL CONNECTIVITY SOLUTIONS LLP; ports=[31337]; source=shodan; last_scan=2026-01-22_09-40-58",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '147.45.116.18']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d6509fea-1e64-4b01-b7d9-27aa1079b9e6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 181.174.164.116",
+      "description": "country=Panama; city=Panam\u00e1; asn=AS52469; isp=Offshore Racks S.A; ports=[31337]; source=shodan; last_scan=2026-01-20_20-44-09",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '181.174.164.116']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--401271df-b9b1-4119-a0a6-13e226920c80",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 161.132.220.65",
+      "description": "country=Peru; city=Lima; asn=AS27843; isp=WIN EMPRESAS S.A.C.; ports=[8080]; source=censys; last_scan=2026-02-17_06-10-27",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '161.132.220.65']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--45b8a601-dcd0-4790-8b5c-765854c7943c",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 172.233.1.83",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=AKAMAI-LINODE-AP Akamai Connected Cloud; ports=[443]; source=censys; last_scan=2026-01-09_16-14-23",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '172.233.1.83']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Havoc"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0785f515-0719-4f41-8e23-d949b69f172e",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 179.0.178.198",
+      "description": "country=Brazil; city=Belo Horizonte; asn=AS270564; isp=MASTER DA WEB DATACENTER LTDA; ports=[1080]; source=censys; last_scan=2026-01-13_03-18-32",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '179.0.178.198']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--37ce50f7-e675-4877-8d86-a30801432432",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 40.233.26.200",
+      "description": "country=Mexico; city=Triana; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[3333]; source=censys; last_scan=2026-02-17_11-22-52",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '40.233.26.200']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--650bbdfb-52f7-4f18-b200-1629799b7805",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 187.45.170.66",
+      "description": "country=Brazil; city=Rio de Janeiro; asn=AS28137; isp=Vialink Solucoes de Tecnologia Ltda; ports=[3333]; source=censys; last_scan=2026-02-17_08-33-01",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '187.45.170.66']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5fa3d70b-22e7-4432-92b4-75d25f5fa4e4",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.119.16.140",
+      "description": "country=Peru; city=Lima; asn=AS12252; isp=America Movil Peru S.A.C.; ports=[443]; source=censys; last_scan=2026-02-17_12-10-27",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.119.16.140']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cc66fb8b-92db-4562-ad96-3f47ff0ccc06",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.219.214.190",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS15830; isp=EQUINIX; ports=[3333]; source=censys; last_scan=2026-02-17_09-07-41",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.219.214.190']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cd83d2c2-8927-40f2-8ed8-ff513d5990da",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 201.16.156.113",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS16735; isp=ALGAR TELECOM SA; ports=[3333]; source=censys; last_scan=2026-01-26_08-39-48",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '201.16.156.113']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--51d32f32-6e44-4142-b0e8-9d723f4267de",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.9.4.41",
+      "description": "country=Paraguay; city=Asunci\u00f3n; asn=AS23201; isp=Telecel S.A.; ports=[443]; source=shodan; last_scan=2026-01-26_05-31-56",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.9.4.41']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1a543940-8655-46bd-a516-8ee6bcdba2fa",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.227.61.113",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS271366; isp=ALTVIA TECNOLOGIA E SERVICOS DIGITAIS LTDA; ports=[3333]; source=censys; last_scan=2026-02-17_11-21-09",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.227.61.113']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--22384349-48a9-4484-9ffa-4fe2eeb059d2",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 168.138.128.79",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[3333]; source=censys; last_scan=2026-02-17_15-10-19",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '168.138.128.79']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--95f41625-3b92-4220-8d11-0f33b2185c20",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 38.56.209.142",
+      "description": "country=El Salvador; city=Antiguo Cuscatl\u00e1n; asn=AS174; isp=Cogent Communications; ports=[7443, 8443]; source=shodan; last_scan=2026-02-09_15-12-47",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '38.56.209.142']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--48b4aabb-1694-4b7a-81a1-7fc815b640b4",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.111.234.234",
+      "description": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; ports=[43333]; source=censys; last_scan=2026-02-17_08-37-33",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.111.234.234']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9448cbec-9387-4ded-a130-f401b457eb44",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 191.209.58.15",
+      "description": "country=Brazil; city=S\u00e3o Jos\u00e9 dos Campos; asn=AS27699; isp=TELEFONICA BRASIL S.A; ports=[3333]; source=censys; last_scan=2026-02-14_14-10-47",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '191.209.58.15']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bc0e4eed-2065-4f9e-ac29-e601c2b23d10",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 177.104.176.211",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS53107; isp=EVEO S.A.; ports=[8080]; source=censys; last_scan=2026-02-17_09-10-59",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '177.104.176.211']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8296ae86-bc87-43b2-8d67-bb4e55ab41c2",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 161.132.51.222",
+      "description": "country=Peru; city=Lima; asn=AS3132; isp=Red Cientifica Peruana; ports=[3333]; source=censys; last_scan=2026-02-17_15-10-27",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '161.132.51.222']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1af2bf11-fda9-47a5-884c-0f91a98efa3c",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.225.129.11",
+      "description": "country=Brazil; city=Rol\u00e2ndia; asn=AS271239; isp=Altatech Solucoes em Tecnologia EIRELI; ports=[3333]; source=censys; last_scan=2026-01-13_08-12-57",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.225.129.11']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fdec84a9-e98a-40d0-af01-4c9b11a9c7c6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.225.129.50",
+      "description": "country=Brazil; city=Rol\u00e2ndia; asn=AS271239; isp=Altatech Solucoes em Tecnologia EIRELI; ports=[3333]; source=censys; last_scan=2026-01-06_12-42-16",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.225.129.50']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--931ca300-f720-49a7-9736-e74f08d57ad7",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.85.49.125",
+      "description": "country=Paraguay; city=Asunci\u00f3n; asn=AS23201; isp=Telecel S.A.; ports=[3333]; source=censys; last_scan=2026-01-02_00-18-19",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.85.49.125']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--54513050-1b1b-4ef3-89cc-9cc22b2bb5d5",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.226.189.70",
+      "description": "country=Brazil; city=Curitiba; asn=AS266997; isp=MPTEC INFORMATICA LTDA - ME; ports=[3333]; source=shodan; last_scan=2026-02-17_11-35-30",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.226.189.70']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d3ecfca2-8998-468a-a966-487bd3f0f958",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 34.176.142.248",
+      "description": "country=Chile; city=Santiago; asn=AS396982; isp=Google LLC; ports=[443, 80]; source=shodan; last_scan=2026-02-17_17-00-52",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '34.176.142.248']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--df173d6f-0fa0-43d6-ac10-834100c86541",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 4.201.140.200",
+      "description": "country=Brazil; city=Campinas; asn=AS8075; isp=MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation; ports=[3333]; source=censys; last_scan=2026-02-09_22-01-37",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '4.201.140.200']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4e9c08bc-386e-45c9-9d67-698bea845ca6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 148.230.153.56",
+      "description": "country=Mexico; city=Torre\u00f3n; asn=AS22884; isp=TOTAL PLAY TELECOMUNICACIONES SA DE CV; ports=[3333]; source=censys; last_scan=2026-02-04_23-22-09",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '148.230.153.56']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--38a55570-eb6b-470f-ac55-ee182e5e7f86",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.104.242.92",
+      "description": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; ports=[43333]; source=censys; last_scan=2026-02-17_08-29-51",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.104.242.92']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a5116760-9ec9-4890-8830-d8cf0fb9fa59",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.104.242.91",
+      "description": "country=Argentina; city=Buenos Aires; asn=AS11014; isp=CPS; ports=[43333]; source=censys; last_scan=2026-02-17_08-19-55",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.104.242.91']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9b7b47f9-524a-4e8f-8e7c-bc3a4b078b87",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 157.151.4.17",
+      "description": "country=Brazil; city=Vinhedo; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[3333]; source=censys; last_scan=2026-02-17_07-48-44",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '157.151.4.17']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ed07bbb3-19d5-427c-b1c4-3ed64c5c243f",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 144.22.207.61",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[8443]; source=censys; last_scan=2026-02-17_09-23-44",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.22.207.61']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--07ee6189-c6f7-4a7d-965a-6b50fccbf0cf",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 181.176.215.140",
+      "description": "country=Peru; city=Lima; asn=AS262210; isp=VIETTEL PERU S.A.C.; ports=[80]; source=censys; last_scan=2026-01-27_18-23-44",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '181.176.215.140']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--76c2c9b6-80f7-435f-918a-188b9a160e67",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 186.177.71.142",
+      "description": "country=Costa Rica; city=San Jos\u00e9; asn=AS262197; isp=MILLICOM CABLE COSTA RICA S.A.; ports=[443]; source=censys; last_scan=2026-02-11_10-12-51",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '186.177.71.142']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d6ceb058-418b-45d0-b91b-da693817a39e",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.110.41.114",
+      "description": "country=Ecuador; city=Quito; asn=AS22724; isp=PUNTONET S.A.; ports=[3333]; source=censys; last_scan=2026-01-23_14-11-46",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.110.41.114']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--65d1e23c-ebc7-4853-863a-1a56313de570",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 161.132.54.23",
+      "description": "country=Peru; city=Lima; asn=AS3132; isp=Red Cientifica Peruana; ports=[8081]; source=censys; last_scan=2026-01-07_01-42-12",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '161.132.54.23']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9d069fac-120f-48c7-8ab3-ddc41e9c40fb",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 144.22.192.165",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[8443]; source=censys; last_scan=2026-02-17_11-11-07",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '144.22.192.165']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2ec95d77-76fa-49bb-a09c-0e99092f772f",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 167.234.226.89",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=Oracle Corporation; ports=[443]; source=shodan; last_scan=2026-02-17_17-08-29",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '167.234.226.89']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dc1724f7-3221-49ed-b23d-05a76d26ab78",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.10.229.166",
+      "description": "country=Paraguay; city=San Lorenzo; asn=AS27733; isp=Centro Nacional de Computacion; ports=[3333]; source=censys; last_scan=2026-02-17_09-23-08",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.10.229.166']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b50ff904-2b20-4ec5-a291-675074ea69c3",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 187.45.79.131",
+      "description": "country=Brazil; city=Triunfo; asn=AS28343; isp=UNIFIQUE TELECOMUNICACOES SA; ports=[3333]; source=censys; last_scan=2026-02-04_19-06-08",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '187.45.79.131']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e9c4eacc-1a91-4c9f-bff5-fb5882aaa473",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 4.201.122.3",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; ports=[443]; source=shodan; last_scan=2026-02-17_17-21-26",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '4.201.122.3']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a909bf56-5ebb-4472-97c1-bdacb62f3646",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 172.233.25.95",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=AKAMAI-LINODE-AP Akamai Connected Cloud; ports=[3333]; source=censys; last_scan=2026-02-17_06-10-52",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '172.233.25.95']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0a2f3429-6f14-4da6-a78d-e62f2d06309c",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.38.160.49",
+      "description": "country=Mexico; city=Mexico City; asn=AS13579; isp=INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION; ports=[3333]; source=censys; last_scan=2026-02-11_14-14-29",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.38.160.49']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1564258c-831e-4502-8e1f-7fbfee73961b",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 177.126.168.209",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS15830; isp=EQUINIX; ports=[3333]; source=censys; last_scan=2026-02-17_08-18-07",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '177.126.168.209']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1df435d5-e838-416e-a8c9-e4df1722eede",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 191.93.117.34",
+      "description": "country=Colombia; city=Barranquilla; asn=AS27831; isp=Colombia Movil; ports=[8848]; source=censys; last_scan=2026-02-17_09-10-22",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '191.93.117.34']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:DCRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7f228bad-b5ff-4f73-a020-c491d26207c6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 34.51.56.27",
+      "description": "country=Mexico; city=Santiago de Quer\u00e9taro; asn=AS396982; isp=GOOGLE-CLOUD-PLATFORM - Google LLC; ports=[80]; source=censys; last_scan=2026-02-02_04-30-21",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '34.51.56.27']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5f0fb9d0-5cc6-462c-8b79-2f52c7ecd717",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 54.233.43.28",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=AMAZON-02 - Amazon.com, Inc.; ports=[8080]; source=censys; last_scan=2026-02-08_22-22-03",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '54.233.43.28']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0e1db3b9-e5c6-4e0f-9784-cb964c108ef8",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 64.76.214.54",
+      "description": "country=Colombia; city=Barrio San Luis; asn=AS3549; isp=Level 3 Parent, LLC; ports=[443]; source=shodan; last_scan=2026-02-17_12-07-05",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '64.76.214.54']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0d2c1274-e4cc-4801-8afc-fa4799017a1b",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.225.129.210",
+      "description": "country=Brazil; city=Apucarana; asn=AS271239; isp=Altatech Solucoes em Tecnologia EIRELI; ports=[3333]; source=censys; last_scan=2026-02-17_03-10-36",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.225.129.210']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f9449359-b890-4835-94a4-c1d75211b4ef",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 187.168.236.220",
+      "description": "country=Mexico; city=Mexico City; asn=AS8151; isp=UNINET; ports=[3334]; source=censys; last_scan=2026-01-22_23-11-26",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '187.168.236.220']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--66818b10-922b-4c19-abb1-b493427c29ee",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.58.100.246",
+      "description": "country=Argentina; city=Rosario; asn=AS27823; isp=Dattatec.com; ports=[3333]; source=censys; last_scan=2026-02-11_08-11-32",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.58.100.246']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0b40daeb-4dd4-4683-aac4-87383ded3c5e",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 152.203.25.225",
+      "description": "country=Colombia; city=Bucaramanga; asn=AS3816; isp=COLOMBIA TELECOMUNICACIONES S.A. ESP BIC; ports=[8080]; source=censys; last_scan=2026-01-27_11-49-19",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '152.203.25.225']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0f72e945-1f7d-4f5f-a457-eaf12f08954f",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 34.51.42.9",
+      "description": "country=Mexico; city=Santiago de Quer\u00e9taro; asn=AS396982; isp=GOOGLE-CLOUD-PLATFORM - Google LLC; ports=[443]; source=censys; last_scan=2026-02-09_17-10-57",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '34.51.42.9']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9f2b6cb6-9398-4d91-854a-7a7c2b362668",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 147.93.9.173",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS47583; isp=AS-HOSTINGER; ports=[443]; source=censys; last_scan=2026-02-17_13-12-24",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '147.93.9.173']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Havoc"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a70f03e8-8397-4990-be48-bcad2c0485fc",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 149.50.137.180",
+      "description": "country=Argentina; city=Rosario; asn=AS27823; isp=Dattatec.com; ports=[2087]; source=censys; last_scan=2026-02-17_06-11-20",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '149.50.137.180']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--97d79832-88ed-494d-8ae4-6365991e8616",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 18.231.69.245",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=AMAZON-02 - Amazon.com, Inc.; ports=[8080]; source=censys; last_scan=2026-02-09_12-59-27",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '18.231.69.245']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--faf8cb38-9a08-4cea-95a7-72515556cb7b",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 38.60.242.200",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS138915; isp=KAOPU-HK Kaopu Cloud HK Limited; ports=[31337]; source=censys; last_scan=2026-02-17_10-26-10",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '38.60.242.200']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c5d5c1fe-f7a2-4ffe-9cd2-dd351c57ea60",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 146.235.38.234",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[5038]; source=censys; last_scan=2026-02-17_07-21-28",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '146.235.38.234']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:DCRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ab64b535-b358-4f6d-8e52-57749e32c375",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 191.8.232.11",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS26599; isp=TELEFONICA BRASIL S.A; ports=[6653]; source=censys; last_scan=2026-02-17_09-08-19",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '191.8.232.11']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--16640bd5-c48b-4828-a28d-151d6bfb30c8",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 136.248.245.36",
+      "description": "country=Chile; city=Colina; asn=AS31898; isp=ORACLE-BMC-31898 - Oracle Corporation; ports=[3333]; source=censys; last_scan=2026-02-17_07-20-04",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '136.248.245.36']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--90f32956-dd07-44e5-ba8b-ad86ee467108",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 181.162.184.56",
+      "description": "country=Chile; city=Rancagua; asn=AS7418; isp=TELEFONICA CHILE S.A.; ports=[8080]; source=censys; last_scan=2026-02-17_01-35-32",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '181.162.184.56']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3c6a1eb1-995a-4a4e-9afb-0f06420b2c1a",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 150.187.25.242",
+      "description": "country=Venezuela, Bolivarian Republic of; city=Barquisimeto; asn=AS20312; isp=Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT); ports=[9999]; source=shodan; last_scan=2026-02-16_10-51-14",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '150.187.25.242']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Cobalt Strike"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3e504ede-5733-434c-afee-4d70fdc9b08e",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 15.228.3.86",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS16509; isp=Amazon.com, Inc.; ports=[80]; source=shodan; last_scan=2026-01-06_03-05-38",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '15.228.3.86']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Cobalt Strike"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34a3b298-beb4-4edc-8004-b918d55235c0",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 201.92.133.149",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS27699; isp=TELEF\u00d4NICA BRASIL S.A; ports=[8081]; source=shodan; last_scan=2025-12-22_01-54-38",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '201.92.133.149']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Havoc"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--915cf8aa-4e51-4de4-865b-19a56be75761",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 4.201.185.160",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; ports=[31337]; source=shodan; last_scan=2025-12-16_11-49-04",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '4.201.185.160']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34a914e6-ccfc-4711-a99c-dd494ad8cfd6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 45.236.130.44",
+      "description": "country=Chile; city=Santiago; asn=AS64111; isp=INFORMATICA BLUEHOSTING LIMITADA; ports=[31337]; source=shodan; last_scan=2025-12-15_14-32-17",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '45.236.130.44']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--597c61a8-de92-441a-87e5-f8f6a2a13c37",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 4.201.155.137",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; ports=[31337]; source=shodan; last_scan=2026-01-12_10-42-51",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '4.201.155.137']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e225c5ff-9717-41ff-a206-21b12491287d",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 177.89.234.43",
+      "description": "country=Brazil; city=Natal; asn=AS28220; isp=Alares Cabo Servicos de Telecomunicacoes S.A.; ports=[1177]; source=shodan; last_scan=2026-01-31_13-46-48",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '177.89.234.43']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:njRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--46ca605b-83ff-4042-b969-7468912ec849",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 156.244.39.44",
+      "description": "country=Peru; city=Lima; asn=AS138915; isp=Kaopu Cloud HK Limited; ports=[1604, 11434]; source=shodan; last_scan=2026-01-09_17-34-42",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '156.244.39.44']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:CHAOS",
+        "malware:CHAOS"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ff7872c6-f0b7-44e0-a685-61427d37d133",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 172.233.27.101",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=Akamai Connected Cloud; ports=[953]; source=shodan; last_scan=2026-01-29_14-45-19",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '172.233.27.101']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:CHAOS"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8a179a84-cd94-4a91-8c28-24847971cefe",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 170.231.155.101",
+      "description": "country=Brazil; city=Varginha; asn=AS263424; isp=Fonelight Telecomunica\u00e7\u00f5es S/A; ports=[3790]; source=shodan; last_scan=2025-12-26_00-53-40",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '170.231.155.101']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Metasploit"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b00c8550-21c0-4b24-9647-ad71c9241732",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.40.131.89",
+      "description": "country=Uruguay; city=Montevideo; asn=AS6057; isp=Administracion Nacional de Telecomunicaciones; ports=[31337]; source=shodan; last_scan=2026-01-21_19-23-04",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.40.131.89']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Sliver"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0d6bb95c-225a-461a-9ab1-ae35e8375826",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 170.239.86.232",
+      "description": "country=Chile; city=Santiago; asn=AS52368; isp=ZAM LTDA.; ports=[3333, 3333]; source=shodan; last_scan=2025-12-30_12-46-13",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '170.239.86.232']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--68e05e07-30ba-4945-ab39-a84fd3d11603",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 190.119.63.144",
+      "description": "country=Peru; city=Lima; asn=AS12252; isp=America Movil Peru S.A.C.; ports=[443, 443]; source=shodan; last_scan=2025-12-30_07-56-58",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '190.119.63.144']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c0b61217-909c-4266-b583-98b6c58416c6",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 170.239.86.183",
+      "description": "country=Chile; city=Santiago; asn=AS52368; isp=ZAM LTDA.; ports=[3333, 3333]; source=shodan; last_scan=2025-12-15_03-08-50",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '170.239.86.183']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish",
+        "malware:GoPhish"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b5de1330-239c-43e0-86f9-e6b04f4c05bb",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 186.169.55.212",
+      "description": "country=Colombia; city=Valledupar; asn=AS3816; isp=COLOMBIA TELECOMUNICACIONES S.A. ESP BIC; ports=[9002]; source=shodan; last_scan=2026-02-09_05-37-35",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '186.169.55.212']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:DCRat"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--cd99d38d-8aea-4a0c-b98b-712191c37510",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 4.201.220.7",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS8075; isp=Microsoft Corporation; ports=[50050]; source=shodan; last_scan=2026-02-17_16-15-57",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '4.201.220.7']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Cobalt Strike"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--15ac6951-b325-4803-8b8a-7773ed8474b7",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 200.109.21.86",
+      "description": "country=Venezuela, Bolivarian Republic of; city=Valencia; asn=AS8048; isp=CANTV Servicios, Venezuela; ports=[443]; source=shodan; last_scan=2026-01-27_16-50-57",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '200.109.21.86']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Quasar"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bd8cbb38-c21d-4d6d-9f8d-401dcb8d083f",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 172.233.15.195",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS63949; isp=Akamai Connected Cloud; ports=[8888]; source=shodan; last_scan=2026-02-03_23-45-25",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '172.233.15.195']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:Supershell"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--198b09f2-b364-4efb-8270-9dca7c5b574d",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 38.60.209.110",
+      "description": "country=Brazil; city=S\u00e3o Paulo; asn=AS138915; isp=Kaopu Cloud HK Limited; ports=[18010, 4700, 853]; source=shodan; last_scan=2026-02-17_17-02-05",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '38.60.209.110']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:CHAOS",
+        "malware:CHAOS",
+        "malware:CHAOS"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--32b42e04-9ca1-484f-b219-db185d6a100b",
+      "created_by_ref": "identity--410f9e1b-44b2-4133-b2a1-9d81f23294b9",
+      "created": "2026-02-17T17:58:40Z",
+      "modified": "2026-02-17T17:58:40Z",
+      "name": "Suspected C2 host 181.174.165.128",
+      "description": "country=Panama; city=Panam\u00e1; asn=AS52469; isp=Offshore Racks S.A; ports=[3333]; source=shodan; last_scan=2026-02-17_11-37-09",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[ipv4-addr:value = '181.174.165.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-17T17:58:40Z",
+      "labels": [
+        "c2",
+        "threat-infra",
+        "malware:GoPhish"
+      ]
+    }
+  ]
+}
