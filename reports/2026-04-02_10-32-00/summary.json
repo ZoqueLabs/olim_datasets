@@ -1,0 +1,899 @@
+{
+  "generated_at": "2026-04-02T15:32:00Z",
+  "current_snapshot_link": "REPLACE_ME_WITH_CURRENT_SNAPSHOT_LINK",
+  "current": {
+    "ip_count": 129,
+    "unique_ports": 34,
+    "threat_frameworks": 14,
+    "countries": 14,
+    "cities": 44,
+    "asns": 57,
+    "tops": {
+      "threats": [
+        [
+          "GoPhish",
+          75
+        ],
+        [
+          "Quasar",
+          18
+        ],
+        [
+          "Sliver",
+          13
+        ],
+        [
+          "DCRat",
+          8
+        ],
+        [
+          "Havoc",
+          5
+        ],
+        [
+          "Cobalt Strike",
+          4
+        ],
+        [
+          "CHAOS",
+          4
+        ],
+        [
+          "AsyncRAT",
+          3
+        ],
+        [
+          "Hack5 Cloud C2",
+          2
+        ],
+        [
+          "UnamWebPanel",
+          1
+        ],
+        [
+          "Mythic",
+          1
+        ],
+        [
+          "njRat",
+          1
+        ]
+      ],
+      "countries": [
+        [
+          "Brazil",
+          68
+        ],
+        [
+          "Colombia",
+          14
+        ],
+        [
+          "Mexico",
+          12
+        ],
+        [
+          "Chile",
+          8
+        ],
+        [
+          "Peru",
+          7
+        ],
+        [
+          "Argentina",
+          6
+        ],
+        [
+          "Panama",
+          3
+        ],
+        [
+          "Paraguay",
+          3
+        ],
+        [
+          "Honduras",
+          2
+        ],
+        [
+          "Venezuela, Bolivarian Republic of",
+          2
+        ],
+        [
+          "El Salvador",
+          1
+        ],
+        [
+          "Costa Rica",
+          1
+        ]
+      ],
+      "cities": [
+        [
+          "S\u00e3o Paulo",
+          50
+        ],
+        [
+          "Lima",
+          7
+        ],
+        [
+          "Barranquilla",
+          6
+        ],
+        [
+          "Santiago",
+          5
+        ],
+        [
+          "Radica",
+          4
+        ],
+        [
+          "Buenos Aires",
+          4
+        ],
+        [
+          "Belo Horizonte",
+          3
+        ],
+        [
+          "Panam\u00e1",
+          3
+        ],
+        [
+          "Valledupar",
+          3
+        ],
+        [
+          "Asunci\u00f3n",
+          2
+        ],
+        [
+          "Rol\u00e2ndia",
+          2
+        ],
+        [
+          "Curitiba",
+          2
+        ]
+      ],
+      "asns": [
+        [
+          "31898",
+          15
+        ],
+        [
+          "16509",
+          11
+        ],
+        [
+          "8075",
+          7
+        ],
+        [
+          "27831",
+          6
+        ],
+        [
+          "3816",
+          5
+        ],
+        [
+          "63949",
+          4
+        ],
+        [
+          "396982",
+          4
+        ],
+        [
+          "47583",
+          4
+        ],
+        [
+          "138915",
+          4
+        ],
+        [
+          "53107",
+          3
+        ],
+        [
+          "52469",
+          3
+        ],
+        [
+          "11014",
+          3
+        ]
+      ],
+      "isps": [
+        [
+          "ORACLE-BMC-31898 - Oracle Corporation",
+          13
+        ],
+        [
+          "AMAZON-02 - Amazon.com, Inc.",
+          9
+        ],
+        [
+          "Colombia Movil",
+          5
+        ],
+        [
+          "Microsoft Corporation",
+          5
+        ],
+        [
+          "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+          5
+        ],
+        [
+          "AS-HOSTINGER",
+          4
+        ],
+        [
+          "EVEO S.A.",
+          3
+        ],
+        [
+          "Offshore Racks S.A",
+          3
+        ],
+        [
+          "CPS",
+          3
+        ],
+        [
+          "TELEFONICA BRASIL S.A",
+          3
+        ],
+        [
+          "Altatech Solucoes em Tecnologia EIRELI",
+          3
+        ],
+        [
+          "GOOGLE-CLOUD-PLATFORM - Google LLC",
+          3
+        ]
+      ],
+      "orgs": [
+        [
+          "unknown",
+          90
+        ],
+        [
+          "Microsoft Corporation",
+          5
+        ],
+        [
+          "Offshore Racks S.A",
+          2
+        ],
+        [
+          "Oracle Corporation",
+          2
+        ],
+        [
+          "ATPlus Telecom",
+          2
+        ],
+        [
+          "Amazon Data Services Brazil",
+          2
+        ],
+        [
+          "Linode",
+          2
+        ],
+        [
+          "ZAM LTDA.",
+          2
+        ],
+        [
+          "Kaopu Cloud HK Limited",
+          2
+        ],
+        [
+          "Colombia M\u00f3vil",
+          1
+        ],
+        [
+          "FAXT TELECOMUNICACOES LTDA",
+          1
+        ],
+        [
+          "Equinix Services, Inc.",
+          1
+        ]
+      ],
+      "ports": [
+        [
+          "3333",
+          37
+        ],
+        [
+          "443",
+          26
+        ],
+        [
+          "31337",
+          12
+        ],
+        [
+          "8080",
+          11
+        ],
+        [
+          "80",
+          9
+        ],
+        [
+          "8848",
+          4
+        ],
+        [
+          "8443",
+          4
+        ],
+        [
+          "9000",
+          3
+        ],
+        [
+          "43333",
+          3
+        ],
+        [
+          "1080",
+          2
+        ],
+        [
+          "8081",
+          2
+        ],
+        [
+          "9090",
+          2
+        ]
+      ]
+    }
+  },
+  "delta": {
+    "ips": {
+      "new": [
+        "177.74.252.105",
+        "18.230.61.7",
+        "186.169.36.103",
+        "186.64.122.196",
+        "189.45.141.173",
+        "191.252.60.140",
+        "201.46.86.34",
+        "34.95.222.105",
+        "40.233.1.176",
+        "40.233.14.119",
+        "56.125.59.57",
+        "74.163.80.224",
+        "74.163.81.142"
+      ],
+      "removed": [],
+      "common": [
+        "136.248.245.36",
+        "144.22.192.165",
+        "144.22.207.61",
+        "146.235.38.234",
+        "147.28.223.190",
+        "147.45.116.18",
+        "147.93.9.173",
+        "148.230.153.56",
+        "149.130.165.200",
+        "149.50.137.180",
+        "15.228.3.86",
+        "150.187.25.242",
+        "150.230.93.32",
+        "152.203.25.225",
+        "152.67.58.223",
+        "156.244.39.44",
+        "157.151.4.17",
+        "161.132.220.65",
+        "161.132.51.222",
+        "161.132.54.23",
+        "167.234.226.89",
+        "168.138.128.79",
+        "168.138.131.15",
+        "170.231.155.101",
+        "170.239.86.183",
+        "170.239.86.232",
+        "172.233.1.83",
+        "172.233.15.195",
+        "172.233.25.95",
+        "172.233.27.101",
+        "177.104.176.211",
+        "177.104.188.108",
+        "177.124.72.24",
+        "177.126.168.209",
+        "177.136.225.181",
+        "177.89.234.43",
+        "179.0.178.198",
+        "179.0.178.79",
+        "179.151.242.232",
+        "18.231.69.245",
+        "18.231.78.171",
+        "181.162.184.56",
+        "181.174.164.116",
+        "181.174.165.127",
+        "181.174.165.128",
+        "181.176.215.140",
+        "181.206.158.190",
+        "181.79.36.228",
+        "186.169.55.212",
+        "186.169.63.171",
+        "186.177.71.142",
+        "187.168.236.220",
+        "187.45.170.66",
+        "187.45.79.131",
+        "187.84.150.111",
+        "187.84.150.127",
+        "190.104.242.91",
+        "190.104.242.92",
+        "190.110.41.114",
+        "190.111.234.234",
+        "190.119.16.140",
+        "190.119.63.144",
+        "190.14.57.229",
+        "190.66.83.233",
+        "191.209.58.15",
+        "191.8.232.11",
+        "191.93.113.160",
+        "191.93.113.86",
+        "191.93.117.34",
+        "191.93.118.190",
+        "191.93.118.254",
+        "200.10.229.166",
+        "200.109.21.86",
+        "200.219.214.190",
+        "200.225.247.79",
+        "200.38.160.49",
+        "200.40.131.89",
+        "200.58.100.246",
+        "200.85.49.125",
+        "200.9.4.41",
+        "201.16.156.113",
+        "201.234.38.193",
+        "201.92.133.149",
+        "207.248.247.66",
+        "34.176.142.248",
+        "34.51.42.9",
+        "34.51.56.27",
+        "38.56.209.142",
+        "38.60.209.110",
+        "38.60.209.204",
+        "38.60.242.200",
+        "4.201.122.3",
+        "4.201.140.200",
+        "4.201.155.137",
+        "4.201.185.160",
+        "4.201.220.7",
+        "40.233.19.225",
+        "40.233.26.200",
+        "45.225.129.11",
+        "45.225.129.210",
+        "45.225.129.50",
+        "45.226.189.70",
+        "45.227.61.113",
+        "45.236.130.44",
+        "45.238.142.234",
+        "45.67.247.185",
+        "46.202.146.65",
+        "52.67.113.111",
+        "54.232.144.183",
+        "54.233.43.28",
+        "54.94.39.204",
+        "56.125.168.86",
+        "56.125.42.70",
+        "64.76.214.54",
+        "89.116.186.136",
+        "89.116.186.72"
+      ]
+    },
+    "threats": {
+      "new": [
+        "UnamWebPanel"
+      ],
+      "removed": [],
+      "common": [
+        "AsyncRAT",
+        "CHAOS",
+        "Cobalt Strike",
+        "DCRat",
+        "GoPhish",
+        "Hack5 Cloud C2",
+        "Havoc",
+        "Metasploit",
+        "Mythic",
+        "Quasar",
+        "Sliver",
+        "Supershell",
+        "njRat"
+      ]
+    },
+    "countries": {
+      "new": [],
+      "removed": [],
+      "common": [
+        "Argentina",
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Costa Rica",
+        "Ecuador",
+        "El Salvador",
+        "Honduras",
+        "Mexico",
+        "Panama",
+        "Paraguay",
+        "Peru",
+        "Uruguay",
+        "Venezuela, Bolivarian Republic of"
+      ]
+    },
+    "cities": {
+      "new": [
+        "Blumenau",
+        "Curic\u00f3",
+        "Itapema",
+        "Los Mochis"
+      ],
+      "removed": [
+        "Diamantina",
+        "Salvador"
+      ],
+      "common": [
+        "Antiguo Cuscatl\u00e1n",
+        "Apucarana",
+        "Asunci\u00f3n",
+        "Barquisimeto",
+        "Barranquilla",
+        "Barrio San Luis",
+        "Belo Horizonte",
+        "Bogot\u00e1",
+        "Bucaramanga",
+        "Buenos Aires",
+        "Campinas",
+        "Colina",
+        "Cota",
+        "Curitiba",
+        "Guadalupe",
+        "La Ca\u00f1ada",
+        "Lima",
+        "Mexico City",
+        "Montevideo",
+        "Natal",
+        "Panam\u00e1",
+        "Quito",
+        "Radica",
+        "Rancagua",
+        "Rio de Janeiro",
+        "Rol\u00e2ndia",
+        "Rosario",
+        "San Jos\u00e9",
+        "San Lorenzo",
+        "San Pedro Sula",
+        "Santiago",
+        "Santiago de Quer\u00e9taro",
+        "S\u00e3o Paulo",
+        "Tegucigalpa",
+        "Torre\u00f3n",
+        "Triunfo",
+        "Valencia",
+        "Valledupar",
+        "Varginha",
+        "Vinhedo"
+      ]
+    },
+    "asns": {
+      "new": [
+        "17222",
+        "265621",
+        "27715"
+      ],
+      "removed": [],
+      "common": [
+        "11014",
+        "11172",
+        "12252",
+        "13579",
+        "138915",
+        "15830",
+        "16509",
+        "16735",
+        "174",
+        "18747",
+        "20312",
+        "215540",
+        "21756",
+        "22724",
+        "22884",
+        "23201",
+        "262197",
+        "262210",
+        "263424",
+        "263686",
+        "26599",
+        "266997",
+        "267121",
+        "270564",
+        "271239",
+        "271366",
+        "273189",
+        "27659",
+        "27699",
+        "27733",
+        "27823",
+        "27831",
+        "27843",
+        "28137",
+        "28220",
+        "28343",
+        "3132",
+        "31898",
+        "3549",
+        "3816",
+        "396982",
+        "47583",
+        "52368",
+        "52469",
+        "52601",
+        "53107",
+        "54825",
+        "6057",
+        "63949",
+        "64111",
+        "7418",
+        "8048",
+        "8075",
+        "8151"
+      ]
+    },
+    "isps": {
+      "new": [
+        "COMUNICACION DIGITAL DE SINALOA SA DE CV",
+        "FAXT TELECOMUNICACOES LTDA",
+        "Level 3 Parent, LLC",
+        "Locaweb Servicos de Internet SA",
+        "MUNDIVOX DO BRASIL LTDA"
+      ],
+      "removed": [
+        "BIZZ INTERNET LTDA",
+        "LVLT-3549 - Level 3 Parent, LLC"
+      ],
+      "common": [
+        "AKAMAI-LINODE-AP Akamai Connected Cloud",
+        "ALGAR TELECOM SA",
+        "ALTVIA TECNOLOGIA E SERVICOS DIGITAIS LTDA",
+        "AMAZON-02 - Amazon.com, Inc.",
+        "AS-HOSTINGER",
+        "ATPlus Telecom",
+        "Administracion Nacional de Telecomunicaciones",
+        "Akamai Connected Cloud",
+        "Alares Cabo Servicos de Telecomunicacoes S.A.",
+        "Alestra, S. de R.L. de C.V.",
+        "Altatech Solucoes em Tecnologia EIRELI",
+        "Amazon.com, Inc.",
+        "America Movil Peru S.A.C.",
+        "CA NETWORK S.A. DE C.V.",
+        "CANTV Servicios, Venezuela",
+        "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+        "CPS",
+        "Centro Nacional de Computacion",
+        "Cogent Communications",
+        "Colombia Movil",
+        "Colombia M\u00f3vil",
+        "Dattatec.com",
+        "EQUINIX",
+        "EVEO S.A.",
+        "Fonelight Telecomunica\u00e7\u00f5es S/A",
+        "Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT)",
+        "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+        "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "Google LLC",
+        "IFX18747 - IFX Corporation",
+        "INET Communication",
+        "INFORMATICA BLUEHOSTING LIMITADA",
+        "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACION",
+        "Ingenieria e Informatica Asociada Ltda IIA Ltda",
+        "KAOPU-HK Kaopu Cloud HK Limited",
+        "Kaopu Cloud HK Limited",
+        "MASTER DA WEB DATACENTER LTDA",
+        "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "MILLICOM CABLE COSTA RICA S.A.",
+        "MPTEC INFORMATICA LTDA - ME",
+        "Microsoft Corporation",
+        "ORACLE-BMC-31898 - Oracle Corporation",
+        "Offshore Racks S.A",
+        "Oracle Corporation",
+        "PUNTONET S.A.",
+        "Packet Host, Inc.",
+        "Red Cientifica Peruana",
+        "SIDERCA S.A.I.C.",
+        "TELEFONICA BRASIL S.A",
+        "TELEFONICA CHILE S.A.",
+        "TELEF\u00d4NICA BRASIL S.A",
+        "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+        "Telecel S.A.",
+        "UNIFIQUE TELECOMUNICACOES SA",
+        "UNINET",
+        "VIETTEL PERU S.A.C.",
+        "Vialink Solucoes de Tecnologia Ltda",
+        "WIN EMPRESAS S.A.C.",
+        "ZAM LTDA."
+      ]
+    },
+    "orgs": {
+      "new": [
+        "ATPlus Telecom",
+        "CTL Colombia",
+        "FAXT TELECOMUNICACOES LTDA"
+      ],
+      "removed": [
+        "INET Communication"
+      ],
+      "common": [
+        "Administracion Nacional de Telecomunicaciones",
+        "Amazon Data Services Brazil",
+        "America Movil Peru S.A.C.",
+        "CABO SERVICOS DE TELECOMUNICACOES LTDA",
+        "CANTV Servicios, Venezuela",
+        "COLOMBIA TELECOMUNICACIONES S.A. ESP",
+        "Colombia M\u00f3vil",
+        "DATTATEC.COM S.R.L.",
+        "DIGICEL S.A. DE C.V.",
+        "Equinix Services, Inc.",
+        "Fonelight Telecomunica\u00e7\u00f5es S/A",
+        "Fundaci\u00f3n Centro Nacional de Innovaci\u00f3n Tecnol\u00f3gica (CENIT)",
+        "GLOBAL CONNECTIVITY SOLUTIONS LLP",
+        "Google LLC",
+        "INFORMATICA BLUEHOSTING LIMITADA",
+        "Kaopu Cloud HK Limited",
+        "Lightnode Limited",
+        "Linode",
+        "MPTEC INFORMATICA LTDA - ME",
+        "Microsoft Corporation",
+        "Offshore Racks S.A",
+        "Oracle Corporation",
+        "TELEF\u00d4NICA BRASIL S.A",
+        "Univ. Catolica Nuestra Senora de la Asuncion",
+        "ZAM LTDA.",
+        "unknown"
+      ]
+    },
+    "ports": {
+      "new": [
+        "11180",
+        "6000"
+      ],
+      "removed": [],
+      "common": [
+        "1000",
+        "10035",
+        "1080",
+        "11434",
+        "1177",
+        "12136",
+        "1337",
+        "1604",
+        "2087",
+        "3057",
+        "31337",
+        "3333",
+        "3334",
+        "3790",
+        "43333",
+        "443",
+        "50050",
+        "5038",
+        "6653",
+        "7443",
+        "80",
+        "8002",
+        "8003",
+        "8080",
+        "8081",
+        "8443",
+        "8848",
+        "8888",
+        "9000",
+        "9002",
+        "9090",
+        "9999"
+      ]
+    },
+    "ip_reuse": [
+      {
+        "ip": "177.124.72.24",
+        "before": [
+          "Sliver"
+        ],
+        "after": [
+          "Sliver",
+          "UnamWebPanel"
+        ],
+        "added": [
+          "UnamWebPanel"
+        ],
+        "removed": []
+      }
+    ],
+    "delta_edges": {
+      "country_threat": [
+        [
+          [
+            "Brazil",
+            "UnamWebPanel"
+          ],
+          1
+        ],
+        [
+          [
+            "Brazil",
+            "AsyncRAT"
+          ],
+          1
+        ]
+      ],
+      "asn_threat": [
+        [
+          [
+            "52601",
+            "UnamWebPanel"
+          ],
+          1
+        ],
+        [
+          [
+            "27715",
+            "Havoc"
+          ],
+          1
+        ],
+        [
+          [
+            "3816",
+            "AsyncRAT"
+          ],
+          1
+        ],
+        [
+          [
+            "17222",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "265621",
+            "GoPhish"
+          ],
+          1
+        ],
+        [
+          [
+            "8075",
+            "AsyncRAT"
+          ],
+          1
+        ],
+        [
+          [
+            "396982",
+            "Sliver"
+          ],
+          1
+        ]
+      ]
+    }
+  }
+}
